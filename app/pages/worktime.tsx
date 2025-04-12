@@ -1,5 +1,5 @@
 export default function WorktimePage() {
-    return (
+    return <PageTemplate>
         <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 gap-8 font-[family-name:var(--font-geist-sans)]">
             <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
                 <h1 className="text-4xl">Darbo laikas</h1>
@@ -8,5 +8,7 @@ export default function WorktimePage() {
                 <p className="text-xl">Sekmadieniais 10:00 - 18:00</p>
             </main>
         </div>
-    );
+    </PageTemplate>
 }
+
+import PageTemplate from "@/components/page-template";
