@@ -305,88 +305,154 @@
         "title": { "lt": "Karšti gerimai", "en": "Hot drinks" },
         "items": [
             {
-                "title": { "lt": "Juoda kava", "en": "Black coffee" },
-                "price": 1.80
+                "title": { 
+                    "lt": "Juoda kava", 
+                    "en": "Black coffee" 
+                },
+                "price": 2
             },
             {
-                "title": { "lt": "Espresso", "en": "Espresso" },
-                "price": 1.80
+                "title": {
+                    "lt": "Espresso", 
+                    "en": "Espresso" 
+                },
+                "price": 2
             },
             {
-                "title": { "lt": "Kava su pienu", "en": "Coffee with milk" },
-                "price": 2.00
-            },
-            {
-                "title": { "lt": "Latte", "en": "Latte" },
+                "title": {
+                    "lt": "Kava su pienu",
+                    "en": "Coffee with milk" 
+                },
                 "price": 2.50
             },
             {
-                "title": { "lt": "Kapučino", "en": "Cappuccino" },
-                "price": 2.50
+                "title": { 
+                    "lt": "Latte", 
+                    "en": "Latte" 
+                },
+                "price": 3
             },
             {
-                "title": { "lt": "Arbata", "en": "Tea" },
+                "title": { 
+                    "lt": "Kapučino", 
+                    "en": "Cappuccino" 
+                },
+                "price": 3
+            },
+            {
+                "title": { 
+                    "lt": "Arbata", 
+                    "en": "Tea"
+                },
                 "price": 2.00
             }
         ]
     },
     "coldDrinks": {
-        "title": { "lt": "Gėrimai", "en": "Beverages" },
+        "title": { 
+            "lt": "Gėrimai",
+            "en": "Beverages" 
+        },
         "items": [
             {
-                "title": { "lt": "Sultys", "en": "Juice" },
-                "price": 1.20
+                "title": { 
+                    "lt": "Sultys", 
+                    "en": "Juice" 
+                },
+                "price": 1.5
             },
             {
-                "title": { "lt": "Mineralinis vanduo", "en": "Mineral water" },
-                "note": { "lt": "Gazuotas arba negazuotas", "en": "Sparkling or still" },
-                "price": 1.60
+                "title": { 
+                    "lt": "Mineralinis vanduo",
+                    "en": "Mineral water"
+                },
+                "note": { 
+                    "lt": "Gazuotas arba negazuotas", 
+                    "en": "Sparkling or still" 
+                },
+                "price": 2
             },
             {
-                "title": { "lt": "CocaCola, Sprite, Fanta", "en": "CocaCola, Sprite, Fanta" },
-                "price": 1.80
+                "title": { 
+                    "lt": "CocaCola, Sprite, Fanta", 
+                    "en": "CocaCola, Sprite, Fanta" 
+                },
+                "price": 2.5
             },
             {
-                "title": { "lt": "Energetinis gėrimas \"Red Bull\"", "en": "Energy drink \"Red Bull\"" },
+                "title": { 
+                    "lt": "Energetinis gėrimas \"Red Bull\"",
+                    "en": "Energy drink \"Red Bull\"" 
+                },
                 "price": 3.50
             },
             {
-                "title": { "lt": "Gira", "en": "Kvass (traditional drink)" },
-                "note": { "lt": "0.3l arba 0.5l", "en": "0.3l or 0.5l" },
-                "price": 1.50,
-                "bigPrice": 2.00
+                "title": { 
+                    "lt": "Gira",
+                    "en": "Kvass (traditional drink)" 
+                },
+                "note": { 
+                    "lt": "0.3l arba 0.5l",
+                    "en": "0.3l or 0.5l" 
+                },
+                "smallPrice": 1.50,
+                "price": 2.00
             },
             {
-                "title": { "lt": "Ąsotis vandens su vaisiais", "en": "Jug of water with fruits" },
+                "title": { 
+                    "lt": "Ąsotis vandens su vaisiais",
+                    "en": "Jug of water with fruits" 
+                },
                 "price": 2.00
             }
         ]
     },
     "alcoholCocktails": {
-        "title": { "lt": "Alkoholiniai kokteiliai", "en": "Alcohol cocktails" },
+        "title": { 
+            "lt": "Alkoholiniai kokteiliai", 
+            "en": "Alcohol cocktails"
+        },
         "items": [
             {
-                "title": { "lt": "Atsuktuvas", "en": "Screwdriver" },
+                "title": { 
+                    "lt": "Atsuktuvas",
+                    "en": "Screwdriver" 
+                },
                 "price": 6
             },
             {
-                "title": { "lt": "Mochito", "en": "Mojito" },
+                "title": { 
+                    "lt": "Mochito",
+                    "en": "Mojito"
+                },
                 "price": 8
             },
             {
-                "title": { "lt": "Sex on the beach", "en": "Sex on the beach" },
+                "title": { 
+                    "lt": "Sex on the beach",
+                    "en": "Sex on the beach"
+                },
                 "price": 8
             },
             {
-                "title": { "lt": "Aperol spritz", "en": "Aperol spritz" },
+                "title": { 
+                    "lt": "Aperol spritz",
+                    "en": "Aperol spritz" 
+                },
                 "price": 8
             },
             {
-                "title": { "lt": "Paslaptis", "en": "Secret" },
+                "title": { 
+                    "lt": "Paslaptis", 
+                    "en": "Secret" 
+                },
                 "price": 8
             },
             {
-                "title": { "lt": "Vasara", "en": "Summer" },
+                "title": {
+                    "lt": "Vasara", 
+                    "en": "Summer" 
+                },
                 "price": 8
             }
         ]
@@ -611,6 +677,105 @@
             {
                 "title": { "lt": "Courvoiseier VSOP", "en": "Courvoiseier VSOP" },
                 "price": 8.00
+            }
+        ]
+    },
+    "beer": {
+        "title": {
+            "lt": "Alus",
+            "en": "Beer" 
+        },
+        "items": [
+            {
+                "title": { 
+                    "lt": "Švyturys Ekstra 5.2%"
+                },
+                "note": {
+                    "lt": "pilstomas 0.33l/0.5l",
+                    "en": "draft 0.33l/0.5l"
+                },
+                "smallPrice": 3.50,
+                "price": 4.50
+            },
+            {
+                "title": { 
+                    "lt": "Švyturys Baltas 5.0%"
+                },
+                "note": {
+                    "lt": "but. 0.5l",
+                    "en": "bottle 0.5l"
+                },
+                "price": 4.50
+            },
+            {
+                "title": { 
+                    "lt": "Švyturys Baltijos 5.8%"
+                },
+                "note": {
+                    "lt": "but. 0.5l",
+                    "en": "bottle 0.5l"
+                },
+                "price": 4.50
+            },
+            {
+                "title": { 
+                    "lt": "Grimbergen Dubbel 6.5%"
+                },
+                "note": {
+                    "lt": "but. 0.25l",
+                    "en": "bottle 0.25l"
+                },
+                "price": 3.50
+            },
+            {
+                "title": { 
+                    "lt": "Kronenbourg 1664 Blanc"
+                },
+                "note": {
+                    "lt": "skard. 0.5l",
+                    "en": "can 0.5l"
+                },
+                "price": 4.50
+            },
+            {
+                "title": { 
+                    "lt": "Švyturys Extra 0.5%"
+                },
+                "note": {
+                    "lt": "skard. 0.5l",
+                    "en": "can 0.5l"
+                },
+                "price": 4.0
+            },
+            {
+                "title": { 
+                    "lt": "Kronenbourg 1664 Blanc 0.5%"
+                },
+                "note": {
+                    "lt": "but. 0.33l",
+                    "en": "bottle 0.33l"
+                },
+                "price": 3.50
+            },
+            {
+                "title": { 
+                    "lt": "Somersby 4.5%"
+                },
+                "note": {
+                    "lt": "skard. 0.5l",
+                    "en": "can 0.5l"
+                },
+                "price": 4.50
+            },
+            {
+                "title": { 
+                    "lt": "Somersby 0.5%"
+                },
+                "note": {
+                    "lt": "skard. 0.5l",
+                    "en": "can 0.5l"
+                },
+                "price": 4.0
             }
         ]
     }

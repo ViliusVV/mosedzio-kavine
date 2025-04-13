@@ -11,7 +11,8 @@
         "thursday": "Thursday",
         "friday": "Friday",
         "saturday": "Saturday",
-        "sunday": "Sunday"
+        "sunday": "Sunday",
+        "alergens.notice": "Ask your waiter about allergens"
     },
     "lt": {
         "menu": "Meniu",
@@ -25,6 +26,7 @@
         "thursday": "Ketvirtadienis",
         "friday": "Penktadienis",
         "saturday": "Šeštadienis",
-        "sunday": "Sekmadienis"
+        "sunday": "Sekmadienis",
+        "alergens.notice": "Dėl alergenų kreiptis į padavėją"
     }
 }
