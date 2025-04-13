@@ -4,8 +4,8 @@ export default function Topbar() {
     return (
         <div className="flex justify-center items-center bg-white pt-8 dark:bg-black w-full h-[20px] gap-4">
             <TopbarItem name="Menu" href="/menu" />
-            <TopbarItem name="Darbo laikas" href="/cotacts" />
-            <TopbarItem name="Kontaktai" href="/worktime" />
+            <TopbarItem name="Darbo laikas" href="/workhours" />
+            <TopbarItem name="Kontaktai" href="/contacts" />
         </div>
     );
 }

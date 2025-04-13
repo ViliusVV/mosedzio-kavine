@@ -1,3 +1,5 @@
+import PageTemplate from "@/components/page-template";
+
 export default function WorktimePage() {
     return <PageTemplate>
         <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 gap-8 font-[family-name:var(--font-geist-sans)]">
@@ -10,5 +12,3 @@ export default function WorktimePage() {
         </div>
     </PageTemplate>
 }
-
-import PageTemplate from "@/components/page-template";
