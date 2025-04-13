@@ -28,5 +28,20 @@
         "saturday": "Šeštadienis",
         "sunday": "Sekmadienis",
         "alergens.notice": "Dėl alergenų kreiptis į padavėją"
+    },
+    "lv": {
+        "menu": "Ēdienkarte",
+        "phone": "Tālruņa numurs",
+        "address": "Adrese",
+        "contacts": "Kontakti",
+        "working.hours": "Darba laiks",
+        "bar": "Bārs",
+        "kitchen": "Virtuve",
+        "monday": "Pirmdiena",
+        "thursday": "Ceturtdiena",
+        "friday": "Piektdiena",
+        "saturday": "Sestdiena",
+        "sunday": "Svētdiena",
+        "alergens.notice": "Par alerģijām jautājiet viesmīlim"
     }
 }
