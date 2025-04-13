@@ -14,18 +14,14 @@ export default function LocaleSwitcher() {
     return segments.join("/");
   };
 
+  // swicher at the end of the row
   return (
-    <div>
-      <p>Locale switcher:</p>
-      <ul>
+    <div className="flex items-center gap-2 justify-end">
         {i18n.locales.map((locale) => {
-          return (
-            <li key={locale}>
-              <Link href={redirectedPathname(locale)}>{locale}</Link>
-            </li>
-          );
+          return <div className="hover:underline hover:underline-offset-4" key={locale}>
+              <Link href={redirectedPathname(locale)}>{locale.toUpperCase()}</Link>
+          </div>
         })}
-      </ul>
     </div>
   );
 }

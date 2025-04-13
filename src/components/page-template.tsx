@@ -1,4 +1,3 @@
-import LocaleSwitcher from "./locale-switcher";
 import Topbar from "./topbar";
 
 export default function PageTemplate(props: {
@@ -6,7 +5,6 @@ export default function PageTemplate(props: {
 }) {
   return <div className="">
       <Topbar/>
-      <LocaleSwitcher />
       <div className="grid grid-rows justify-items-center min-h-screen md:px-8 pt-8 px-3 gap-8">
         <main className="flex flex-col gap-[32px] w-full lg:w-[900px] items-center">
           {props.children}
