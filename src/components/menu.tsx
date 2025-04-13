@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import data from '@/data/menu.json'
+import { Locale } from '@/i18n-config';
 
 type LocalisedString = {
     lt: string,
@@ -22,18 +23,18 @@ type MenuType = {
 const menuData: MenuType = data as unknown as MenuType;
 
 
-export function MenuFront() {
+export function MenuFront(props: {lang: Locale}) {
     return <MenuWrapper>
         <div className='flex gap-36 py-4 px-16'>
             <div className='relative z-10 flex flex-col'>
-                <MenuGroup group={menuData['soups']}/>
-                <MenuGroup group={menuData['snacks']}/>
-                <MenuGroup group={menuData['desserts']}/>
+                <MenuGroup lang={props.lang} group={menuData['soups']}/>
+                <MenuGroup lang={props.lang} group={menuData['snacks']}/>
+                <MenuGroup lang={props.lang} group={menuData['desserts']}/>
             </div>
             <div className='relative z-10 flex flex-col'>
-                <MenuGroup group={menuData['hotDishes']}/>
-                <MenuGroup group={menuData['otherDishes']}/>
-                <MenuGroup group={menuData['burgers']}/>
+                <MenuGroup lang={props.lang} group={menuData['hotDishes']}/>
+                <MenuGroup lang={props.lang} group={menuData['otherDishes']}/>
+                <MenuGroup lang={props.lang} group={menuData['burgers']}/>
             </div>
         </div>
 
@@ -50,18 +51,18 @@ export function MenuFront() {
     </MenuWrapper>
 }
 
-export function MenuBack() {
+export function MenuBack(props: {lang: Locale}) {
     return <MenuWrapper>
         <div className='flex gap-36 py-4 px-16'>
             <div className='relative z-10 flex flex-col'>
-                <MenuGroup group={menuData['soups']}/>
-                <MenuGroup group={menuData['snacks']}/>
-                <MenuGroup group={menuData['desserts']}/>
+                <MenuGroup lang={props.lang} group={menuData['soups']}/>
+                <MenuGroup lang={props.lang} group={menuData['snacks']}/>
+                <MenuGroup lang={props.lang} group={menuData['desserts']}/>
             </div>
             <div className='relative z-10 flex flex-col'>
-                <MenuGroup group={menuData['hotDishes']}/>
-                <MenuGroup group={menuData['otherDishes']}/>
-                <MenuGroup group={menuData['burgers']}/>
+                <MenuGroup lang={props.lang} group={menuData['hotDishes']}/>
+                <MenuGroup lang={props.lang} group={menuData['otherDishes']}/>
+                <MenuGroup lang={props.lang} group={menuData['burgers']}/>
             </div>
         </div>
 
@@ -85,16 +86,18 @@ function MenuWrapper(props: {children: React.ReactNode}) {
     </div>
 }
 
-function MenuGroup(props: {group: MenuGroup}) {
+function MenuGroup(props: {group: MenuGroup, lang: Locale}) {
+    const lang = props.lang as keyof LocalisedString;
+
     return <div className="font-serif mb-2">
-        <h2 className="text-2xl font-bold">{props.group.title.lt}</h2>
+        <h2 className="text-2xl font-bold">{props.group.title[lang]}</h2>
         <div className="">
         {
             props.group.items.map((item, index) => {
                 return <div key={index} className="flex flex-col">
-                    <p className="text-lg text-bold italic p-0 m-0">{item.title.lt} {item.price}€</p>
+                    <p className="text-lg text-bold italic p-0 m-0">{item.title[lang]} {item.price}€</p>
                     { item.note && 
-                        <p className="text-xs font-italic mt-[-6px]">({item.note.lt})</p>
+                        <p className="text-xs font-italic mt-[-6px]">({item.note[lang]})</p>
                     }
                 </div>
             })
