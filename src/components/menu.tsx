@@ -80,7 +80,7 @@ export function MenuBack() {
 
 function MenuWrapper(props: {children: React.ReactNode}) {
     // white background landsape A4 size ration
-    return <div  className="w-[297mm] h-[210mm] bg-white text-black relative overflow-hidden box-border">
+    return <div  className="w-[297mm] h-[210mm] bg-white text-black relative overflow-hidden">
         {props.children}
     </div>
 }
