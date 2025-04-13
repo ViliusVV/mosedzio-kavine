@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Mosėdžio kavinė",
   description: "Mosėdžio kavinė. Grill patikalai, pietūs, maitas išsinešimui.",
-  viewport: "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes",
+  // viewport: "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes",
   creator: "Vilius Valinskis",
   keywords: ["Mosėdžio kavinė", "Mosėdis", "kavinė", "restoranas", "maistas", "kavinė mosėdyje", "kavinė skuodė", "maistas išsinešimui", "maistas į namus", "mosedžio kavinė", "mosedžio kavinė", "mosedžio restoranas", "restaurant in mosėdis", "restaurant"],
 };
