@@ -52,7 +52,29 @@ export function MenuFront() {
 
 export function MenuBack() {
     return <MenuWrapper>
-        Back Menu
+        <div className='flex gap-36 py-4 px-16'>
+            <div className='relative z-10 flex flex-col'>
+                <MenuGroup group={menuData['soups']}/>
+                <MenuGroup group={menuData['snacks']}/>
+                <MenuGroup group={menuData['desserts']}/>
+            </div>
+            <div className='relative z-10 flex flex-col'>
+                <MenuGroup group={menuData['hotDishes']}/>
+                <MenuGroup group={menuData['otherDishes']}/>
+                <MenuGroup group={menuData['burgers']}/>
+            </div>
+        </div>
+
+
+           
+        <div style={{width: "40%", height: "40%" }} className="absolute bottom-0 left-0 translate-y-[6%]">
+            <Image
+                className='object-contain'
+                src="/menu_back_bg.png"
+                alt="Next.js logo"
+                fill
+            />
+        </div>
     </MenuWrapper>
 }
 
