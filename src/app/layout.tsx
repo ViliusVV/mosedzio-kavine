@@ -17,10 +17,15 @@ export const metadata: Metadata = {
   description: "Mosėdžio kavinė",
 };
 
+export async function generateStaticParams() {
+  return [{ lang: 'lt' }, { lang: 'en' }]
+}
+
 export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
+  
 }>) {
   return (
     <html lang="en">

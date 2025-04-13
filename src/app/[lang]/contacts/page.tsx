@@ -1,11 +1,15 @@
 import PageTemplate from "@/components/page-template";
+import { PageParams } from "@/types";
 
 
-export default function ContactsPage() {
+export default async function ContactsPage({ params }: PageParams) {
+    const { lang } = await params;
+
     return <PageTemplate>
         <div className="flex flex-col gap-[32px] row-start-2 w-full">
             <h1 className="text-4xl">Kontaktai</h1>
             <div className="max-w-sreen-sm">
+                <p>{lang}</p>
                 <p className="text-xl">Tel. nr.: +370 645 44112</p>
                 <p className="text-xl ">Skuodo r., Mosėdis, Kęstučio g. 6a</p>
             </div>
