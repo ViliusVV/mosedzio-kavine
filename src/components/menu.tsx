@@ -44,7 +44,8 @@ export function MenuFront(props: {lang: Locale}) {
             <Image
                 className='object-contain'
                 src="/menu_front_bg.png"
-                alt="Next.js logo"
+                alt=''
+                priority
                 fill
             />
         </div>
@@ -72,7 +73,8 @@ export function MenuBack(props: {lang: Locale}) {
             <Image
                 className='object-contain'
                 src="/menu_back_bg.png"
-                alt="Next.js logo"
+                alt=''
+                priority
                 fill
             />
         </div>

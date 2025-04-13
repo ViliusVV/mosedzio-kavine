@@ -26,8 +26,13 @@ function getLocale(request: NextRequest): string | undefined {
 
 export function middleware(request: NextRequest) {
   const pathname = request.nextUrl.pathname;
-
   console.log("pathname", pathname);
+
+  // skip images
+  if (pathname.endsWith(".png") || pathname.endsWith(".jpg")) return;
+
+  // only handle /qr-redirect
+  if (!pathname.startsWith("/qr-redirect")) return;
 
   // // `/_next/` and `/api/` are ignored by the watcher, but we need to ignore files in `public` manually.
   // // If you have one
@@ -40,25 +45,33 @@ export function middleware(request: NextRequest) {
   // )
   //   return
 
+  console.log("redirecting", request.url);
+
+
   // Check if there is any supported locale in the pathname
-  const pathnameIsMissingLocale = i18n.locales.every(
-    (locale) =>
-      !pathname.startsWith(`/${locale}/`) && pathname !== `/${locale}`,
+  // const pathnameIsMissingLocale = i18n.locales.every(
+  //   (locale) =>
+  //     !pathname.startsWith(`/${locale}/`) && pathname !== `/${locale}`,
+  // );
+
+  const locale = getLocale(request);
+  return NextResponse.redirect(
+    new URL(locale!!,request.url,),
   );
 
   // Redirect if there is no locale
-  if (pathnameIsMissingLocale) {
-    const locale = getLocale(request);
+  // // if (pathnameIsMissingLocale) {
+  //   const locale = getLocale(request);
 
-    // e.g. incoming request is /products
-    // The new URL is now /en-US/products
-    return NextResponse.redirect(
-      new URL(
-        `/${locale}${pathname.startsWith("/") ? "" : "/"}${pathname}`,
-        request.url,
-      ),
-    );
-  }
+  //   // e.g. incoming request is /products
+  //   // The new URL is now /en-US/products
+  //   return NextResponse.redirect(
+  //     new URL(
+  //       `/${locale}${pathname.startsWith("/") ? "" : "/"}${pathname}`,
+  //       request.url,
+  //     ),
+  //   );
+  // }
 }
 
 export const config = {
