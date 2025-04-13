@@ -1,8 +1,11 @@
 import { MenuBack, MenuFront } from "@/components/menu";
+import { PageParams } from "@/types";
 
-export default function MenuPage() {
+export default async function MenuPage(props: PageParams) {
+    const { lang } = await props.params;
+
     return <div>
-        <MenuFront/>
-        <MenuBack/>
+        <MenuFront lang={lang}/>
+        <MenuBack lang={lang}/>
     </div>
 }

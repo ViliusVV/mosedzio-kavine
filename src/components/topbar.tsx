@@ -1,7 +1,6 @@
 import Link from "next/link";
 import LocaleSwitcher from "./locale-switcher";
 import { StringKey, T } from "@/utils/lang";
-import { PageParams } from "@/types";
 import { Locale } from "@/i18n-config";
 
 export default async function Topbar(props: {lang: Locale}) {
