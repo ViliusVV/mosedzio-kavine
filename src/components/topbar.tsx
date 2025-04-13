@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Topbar() {
     return (
-        <div className="flex justify-center items-center bg-white pt-8 dark:bg-black w-full h-[20px] gap-4">
+        <div className="flex justify-center items-center bg-white pt-8 dark:bg-black w-full h-[20px] gap-4 px-4">
             <TopbarItem name="Menu" href="/menu" />
             <TopbarItem name="Darbo laikas" href="/workhours" />
             <TopbarItem name="Kontaktai" href="/contacts" />
