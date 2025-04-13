@@ -4,6 +4,7 @@
         "items": [
             {
                 "title": { "lt": "Dienos sriuba", "en": "Soup of the day" },
+                "note": { "lt": "Pasiteiraukite padavėjo", "en": "Ask the waiter" },
                 "price": 1.80
             },
             {
@@ -86,7 +87,7 @@
             },
             {
                 "title": { "lt": "Pieno kokteilis", "en": "Milkshake " },
-                "description": { "lt": "Braškinis arba bananinis", "en": "Strawberry or bannana"},
+                "note": { "lt": "Braškinis arba bananinis", "en": "Strawberry or bannana"},
                 "price": 3.50
             },
             {
@@ -140,12 +141,12 @@
         "items": [
             {
                 "title": { "lt": "Plėšytos kiaulienos mėsainis su fri bulvytėmis", "en": "Pulled pork burger with french fries" },
-                "description": { "lt": "Mėsainio padažas: agurkinis arba paprikinis", "en": "Burger sauce: cucumber or bell pepper"},
+                "note": { "lt": "Mėsainio padažas: agurkinis arba paprikinis", "en": "Burger sauce: cucumber or bell pepper"},
                 "price": 7.00
             },
             {
                 "title": { "lt": "Vištienos mėsainis su fri bulvytėmis", "en": "Chicken burger with french fires" },
-                "description": { "lt": "Mėsainio padažas: agurkinis arba paprikinis", "en": "Burger sauce: cucumber or bell pepper"},
+                "note": { "lt": "Mėsainio padažas: agurkinis arba paprikinis", "en": "Burger sauce: cucumber or bell pepper"},
                 "price": 7.00
             }
         ]
@@ -221,7 +222,7 @@
             },
             {
                 "title": { "lt": "Mineralinis vanduo", "en": "Mineral water" },
-                "description": { "lt": "Gazuotas arba negazuotas", "en": "Sparkling or still" },
+                "note": { "lt": "Gazuotas arba negazuotas", "en": "Sparkling or still" },
                 "price": 1.60
             },
             {
@@ -234,7 +235,7 @@
             },
             {
                 "title": { "lt": "Gira", "en": "Kvass (traditional drink)" },
-                "description": { "lt": "0.3l arba 0.5l", "en": "0.3l or 0.5l" },
+                "note": { "lt": "0.3l arba 0.5l", "en": "0.3l or 0.5l" },
                 "price": 1.50,
                 "bigPrice": 2.00
             },

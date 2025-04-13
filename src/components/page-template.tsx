@@ -1,7 +1,7 @@
 import Topbar from "./topbar";
 
 export default function PageTemplate(props: {
-  children: React.ReactNode[];
+  children: React.ReactNode[] | React.ReactNode;
 }) {
   return <div>
       <Topbar/>

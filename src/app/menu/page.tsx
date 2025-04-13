@@ -8,7 +8,7 @@ export default function MenuPage() {
             <MenuFront/>
         </ScrollHorizontal>
         <ScrollHorizontal>
-            <MenuFront/>
+            <MenuBack/>
         </ScrollHorizontal>
     </PageTemplate>
 }
