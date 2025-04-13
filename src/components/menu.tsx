@@ -29,12 +29,13 @@ export function MenuFront(props: {lang: Locale}) {
             <div className='relative z-10 flex flex-col'>
                 <MenuGroup lang={props.lang} group={menuData['soups']}/>
                 <MenuGroup lang={props.lang} group={menuData['snacks']}/>
+                <MenuGroup lang={props.lang} group={menuData['salads']}/>
                 <MenuGroup lang={props.lang} group={menuData['desserts']}/>
+                <MenuGroup lang={props.lang} group={menuData['burgers']}/>
             </div>
             <div className='relative z-10 flex flex-col'>
                 <MenuGroup lang={props.lang} group={menuData['hotDishes']}/>
                 <MenuGroup lang={props.lang} group={menuData['otherDishes']}/>
-                <MenuGroup lang={props.lang} group={menuData['burgers']}/>
             </div>
         </div>
 

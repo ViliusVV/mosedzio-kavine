@@ -3,21 +3,29 @@
         "title": { "lt": "Sriubos", "en": "Soups" },
         "items": [
             {
-                "title": { "lt": "Dienos sriuba", "en": "Soup of the day" },
-                "note": { "lt": "Pasiteiraukite padavėjo", "en": "Ask the waiter" },
+                "title": { 
+                    "lt": "Dienos sriuba", 
+                    "en": "Soup of the day" 
+                },
+                "note": { 
+                    "lt": "Pasiteiraukite padavėjo",
+                    "en": "Ask the waiter" 
+                },
                 "price": 2
             },
             {
-                "title": { "lt": "Ciubulynė", "en": "Cold onion soup" },
+                "title": { 
+                    "lt": "Ciubulynė",
+                    "en": "Cold onion soup" 
+                },
                 "price": 4
             },
             {
-                "title": { "lt": "Šaltibarsčiai", "en": "Cold beetroot soup" },
-                "price": 3.50
-            },
-            {
-                "title": { "lt": "Čili sriuba", "en": "Chili soup" },
-                "price": 4.50
+                "title": { 
+                    "lt": "Čili sriuba",
+                    "en": "Chili soup" 
+                },
+                "price": 5
             }
         ]
     },
@@ -25,162 +33,271 @@
         "title": { "lt": "Užkandžiai", "en": "Snacks" },
         "items": [
             {
-                "title": { "lt": "Keptos duonos lazdelės su sūrio padažu", "en": "Fried bread sticks with cheese sauce" },
-                "price": 4.50
+                "title": { 
+                    "lt": "Kepta duona su sūriu",
+                    "en": "Fried bread sticks with cheese"
+                },
+                "price": 5.5
             },
             {
-                "title": { "lt": "Kepta duona su \"Džiugo\" sūrio užtepėle", "en": "Fried bread with hard cheese spread" },
-                "price": 4.50
+                "title": {
+                    "lt": "Kepta duona su \"Džiugo\" sūrio užtepėle",
+                    "en": "Fried bread with hard cheese spread"
+                },
+                "price": 5.5
             },
             {
-                "title": { "lt": "Karštų užkandžių rinkinys", "en": "Hot snack assortment" },
-                "price": 6.50
+                "title": { 
+                    "lt": "Užkandžių rinkinys",
+                    "en": "Snack assortment"
+                },
+                "price": 8.5
             },
             {
-                "title": { "lt": "Krevetės tešlojoe", "en": "Batter-Fried shrimps" },
-                "price": 6.50
+                "title": {
+                    "lt": "Krevetės tešlojoe",
+                    "en": "Batter-Fried shrimps"
+                },
+                "price": 7.5
             },
             {
-                "title": { "lt": "Žirniai su spirgučiais", "en": "Peas with cracklings (bacon)" },
-                "price": 4.50
+                "title": {
+                    "lt": "Žirniai su spirgučiais",
+                    "en": "Peas with cracklings (bacon)"
+                },
+                "price": 5.5
             },
             {
-                "title": { "lt": "Karštų sūrio spurgyčių rinkinys", "en": "Fried cheese ball set" },
+                "title": {
+                    "lt": "Karštų sūrio spurgyčių rinkinys",
+                    "en": "Fried cheese ball set"
+                },
                 "price": 7.50
             },
             {
-                "title": { "lt": "Saldžiosios bulvės su padažu", "en": "Sweet potatoes with sauce" },
-                "price": 5.00
+                "title": {
+                    "lt": "Saldžiosios bulvės su padažu",
+                    "en": "Sweet potatoes with sauce" 
+                },
+                "price": 5.5
+            },
+            {
+                "title": {
+                    "lt": "Naminiai bulvių traškučiai",
+                    "en": "Homemade potato chips"
+                },
+                "price": 5.5
             }
         ]
     },
     "salads": {
-        "title": { "lt": "Salotos", "en": "Salads" },
+        "title": { 
+            "lt": "Salotos",
+            "en": "Salads" 
+        },
         "items": [
             {
-                "title": { "lt": "Karštos salots su krevetėmis", "en": "Hot salad with shrimps" },
-                "price": 8.50
-            },            {
-                "title": { "lt": "Burokėlių karpačio su fetos sūrio", "en": "Beet carpaccio with feta cheese" },
+                "title": { 
+                    "lt": "Burokėlių salots su fetos sūrio",
+                    "en": "Beet salad with feta cheese" 
+                },
                 "price": 6.50
             },
             {
-                "title": { "lt": "Vištienos salotos", "en": "Chicken salad" },
-                "price": 7.00
-            },
-            {
-                "title": { "lt": "Aštrios salotos su plėšyta kiauliena", "en": "Spicy salad with pulled pork" },
-                "price": 7.00
+                "title": { 
+                    "lt": "Vištienos salotos", 
+                    "en": "Chicken salad" 
+                },
+                "price": 8
             }
         ]
     },
     "desserts": {
-        "title": { "lt": "Desertai", "en": "Desserts" },
+        "title": {
+            "lt": "Desertai",
+            "en": "Desserts" 
+        },
         "items": [
             {
-                "title": { "lt": "Ledai su šokoladu", "en": "Ice-cream with chocolate" },
+                "title": { 
+                    "lt": "Ledai su šokoladu",
+                    "en": "Ice-cream with chocolate"
+                },
                 "price": 4.00
             },
             {
-                "title": { "lt": "Ledai su šviežiomis uogomis", "en": "Ice-cream with fresh berries" },
+                "title": { 
+                    "lt": "Ledai su šviežiomis uogomis",
+                    "en": "Ice-cream with fresh berries" 
+                },
                 "price": 4.00
             },
             {
-                "title": { "lt": "Pieno kokteilis", "en": "Milkshake " },
-                "note": { "lt": "Braškinis arba bananinis", "en": "Strawberry or bannana"},
-                "price": 3.50
+                "title": {
+                    "lt": "Pieno kokteilis",
+                    "en": "Milkshake " 
+                },
+                "note": {
+                    "lt": "Braškinis arba bananinis",
+                    "en": "Strawberry or bannana"
+                },
+                "price": 3.5
             },
             {
-                "title": { "lt": "Firminis pyragas", "en": "Special pie" },
-                "price": 4.50
-            },
-            {
-                "title": { "lt": "\"Lava\" šokoladinis pyragaitis", "en": "\"Lava\" chocolate mini cake" },
-                "price": 4.00
+                "title": {
+                    "lt": "\"Lava\" šokoladinis pyragaitis",
+                    "en": "Lava cake"
+                },
+                "price": 4.5
             }
         ]
     },
     "hotDishes": {
-        "title": { "lt": "Karšti patiekalai", "en": "Hot dishes" },
+        "title": { 
+            "lt": "Karšti patiekalai",
+            "en": "Hot dishes" 
+        },
         "items": [
             {
-                "title": { "lt": "Grill kiaulienos sprandinė viskio marinate", "en": "Grilled pork neck in whiskey marinade" },
-                "price": 8.50
+                "title": { 
+                    "lt": "Grill kiaulienos sprandinė viskio marinate",
+                    "en": "Grilled pork neck in whiskey marinade"
+                },
+                "price": 10
             },
             {
-                "title": { "lt": "Grill kiaulienos šonkauliai su BBQ burbono glazūra", "en": "Grilled pork ribs with BBQ bourbon glaze" },
-                "price": 13.50,
-                "smallPrice": 8.50
+                "title": {
+                    "lt": "Grill kiaulienos šonkauliai su BBQ burbono glazūra",
+                    "en": "Grilled pork ribs with BBQ bourbon glaze" 
+                },
+                "price": 16,
+                "smallPrice": 11
             },
             {
-                "title": { "lt": "Kiaulienos karbonadas su sūriu", "en": "Pork chop with cheese topping" },
-                "price": 8.50,
-                "smallPrice": 7.50
-            },
-            {
-                "title": { "lt": "Grill vištienos kepsnys kokoso ir imbiero marinate", "en": "Grilled chicken steak in coconut and ginger marinade" },
-                "price": 8.50
-            },
-            {
-                "title": { "lt": "Grill lašišos kepsnys", "en": "Grilled salmon steak" },
-                "price": 12.00
-            },
-            {
-                "title": { "lt": "Grill skumbrės kepsnys", "en": "Grill mackerel steak" },
+                "title": {
+                    "lt": "Grill vištienos",
+                    "en": "Grilled chicken steak" 
+                },
                 "price": 9.50
             },
             {
-                "title": { "lt": "Jautienos žandai mėsos padaže", "en": "Beef cheeks with gravy sauce" },
-                "price": 12.00
+                "title": { 
+                    "lt": "Grill lašišos kepsnys",
+                    "en": "Grilled salmon steak" 
+                },
+                "price": 15.00
+            },
+            {
+                "title": { 
+                    "lt": "Menkės kepsnys su sezamo sėklomis",
+                    "en": "Cod fish steak with sesame seeds"
+                },
+                "price": 9
+            },
+            {
+                "title": {
+                    "lt": "Grill rinkinys \"Dviem\"",
+                    "en": "Grill set for two"
+                },
+                "price": 24
+            },
+            {
+                "title": { 
+                    "lt": "Jautienos žandai mėsos padaže",
+                    "en": "Beef cheeks with gravy sauce" 
+                },
+                "price": 15.00
+            },
+            {
+                "title": { 
+                    "lt": "Kiaulienos karbonadas / su sūriu",
+                    "en": "Pork chop with/without cheese topping "
+                },
+                "price": 9
+            },
+            {
+                "title": { 
+                    "lt": "Vištienos kepsnys / su sūriu",
+                    "en": "Chicken steak with/without cheese topping"
+                },
+                "price": 9
+            },
+            {
+                "title": { 
+                    "lt": "Vištienos juostelės grietinėlės-sūrio padaže",
+                    "en": "Chicken strips in cream-cheese sauce"
+                },
+                "price": 9
             }
         ],
         "img": null
     },
     "burgers": {
-        "title": { "lt": "Mėsainiai", "en": "Burgers" },
+        "title": { 
+            "lt": "Mėsainiai", 
+            "en": "Burgers" 
+        },
         "items": [
             {
-                "title": { "lt": "Plėšytos kiaulienos mėsainis su fri bulvytėmis", "en": "Pulled pork burger with french fries" },
-                "note": { "lt": "Mėsainio padažas: agurkinis arba paprikinis", "en": "Burger sauce: cucumber or bell pepper"},
-                "price": 7.00
-            },
-            {
-                "title": { "lt": "Vištienos mėsainis su fri bulvytėmis", "en": "Chicken burger with french fires" },
-                "note": { "lt": "Mėsainio padažas: agurkinis arba paprikinis", "en": "Burger sauce: cucumber or bell pepper"},
+                "title": { 
+                    "lt": "Vištienos mėsainis su fri bulvytėmis",
+                    "en": "Chicken burger with french fires" 
+                    },
+                "note": {
+                    "lt": "Mėsainio padažas: agurkinis arba paprikinis",
+                    "en": "Burger sauce: cucumber or bell pepper"
+                },
                 "price": 7.00
             }
         ]
     },
     "otherDishes": {
-        "title": { "lt": "Kiti patiekalai", "en": "Other dishes" },
+        "title": { 
+            "lt": "Kiti patiekalai",
+            "en": "Other dishes"
+        },
         "items": [
             {
-                "title": { "lt": "Silkė su karštomis bulvėmis", "en": "Herring with hot potatoes" },
-                "price": 5.00
+                "title": { 
+                    "lt": "Silkė su karštomis bulvėmis",
+                    "en": "Herring with hot potatoes" 
+                },
+                "price": 7
             },
             {
-                "title": { "lt": "Gruzdintos bulvytes su pomidorų padažu", "en": "French fries with tomato sauce" },
-                "price": 3.50
+                "title": { 
+                    "lt": "Gruzdintos bulvytes su pomidorų padažu",
+                    "en": "French fries with tomato sauce" 
+                },
+                "price": 4
             },
             {
-                "title": { "lt": "Gruzdintos bulvytes su vištienos \"popsiukais\"", "en": "French fries with chicken nuggets" },
+                "title": { 
+                    "lt": "Gruzdintos bulvytes su vištienos \"popsiukais\"", 
+                    "en": "French fries with chicken nuggets" 
+                },
+                "price": 7
+            },
+            {
+                "title": { 
+                    "lt": "Žemaičių blynai", 
+                    "en": "Meat stuffed potato pancakes" 
+                },
                 "price": 6.00
             },
             {
-                "title": { "lt": "Cepelinai", "en": "Zeppelins (Potato dumplings with meat)" },
-                "price": 6.00
+                "title": { 
+                    "lt": "Blyneliai su varške ir uogiene", 
+                    "en": "Crepes with curd and jam" 
+                },
+                "price": 5.5
             },
             {
-                "title": { "lt": "Žemaičių blynai", "en": "Meat stuffed potato pancakes" },
-                "price": 6.00
-            },
-            {
-                "title": { "lt": "Blyneliai su varške ir uogiene", "en": "Crepes with curd and jam" },
-                "price": 5.00
-            },
-            {
-                "title": { "lt": "Blyneliai su bananais ir šokoladu", "en": "Crepes with banana and chocolate" },
-                "price": 5.00
+                "title": { 
+                    "lt": "Blyneliai su bananais ir šokoladu", 
+                    "en": "Crepes with banana and chocolate" 
+                },
+                "price": 5.50
             }
         ]
     },

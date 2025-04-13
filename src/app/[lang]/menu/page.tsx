@@ -17,7 +17,7 @@ export default async function MenuPage(props: PageParams) {
 }
 
 function ScrollHorizontal(props: { children: React.ReactNode }) {
-    return <div className="max-w-screen overflow-x-scroll">
+    return <div className="max-w-screen overflow-x-auto">
         {props.children}
     </div>
 }
