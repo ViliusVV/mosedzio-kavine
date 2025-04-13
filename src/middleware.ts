@@ -6,7 +6,7 @@ import { i18n } from "@/i18n-config";
 import { match as matchLocale } from "@formatjs/intl-localematcher";
 import Negotiator from "negotiator";
 
-function getLocale(request: NextRequest): string | undefined {
+function getLocale(request: NextRequest): string {
   // Negotiator expects plain object so we need to transform headers
   const negotiatorHeaders: Record<string, string> = {};
   request.headers.forEach((value, key) => (negotiatorHeaders[key] = value));
@@ -21,15 +21,12 @@ function getLocale(request: NextRequest): string | undefined {
 
   const locale = matchLocale(languages, locales, i18n.defaultLocale);
 
-  return locale;
+  return locale ?? i18n.defaultLocale;
 }
 
 export function middleware(request: NextRequest) {
   const pathname = request.nextUrl.pathname;
   console.log("pathname", pathname);
-
-  // skip images
-  if (pathname.endsWith(".png") || pathname.endsWith(".jpg")) return;
 
   // only handle /qr-redirect
   if (!pathname.startsWith("/qr-redirect")) return;
@@ -56,7 +53,7 @@ export function middleware(request: NextRequest) {
 
   const locale = getLocale(request);
   return NextResponse.redirect(
-    new URL(locale!!,request.url,),
+    new URL(locale, request.url,),
   );
 
   // Redirect if there is no locale

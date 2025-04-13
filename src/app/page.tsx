@@ -1,4 +1,3 @@
-import { PageParams } from "@/types";
 import MenuPage from "./[lang]/menu/page";
 import { Locale } from "@/i18n-config";
 
