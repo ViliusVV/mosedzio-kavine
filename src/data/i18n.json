@@ -1,8 +1,30 @@
 {
     "en": {
-        "menu": "Menu"
+        "menu": "Menu",
+        "phone": "Phone",
+        "address": "Address",
+        "contacts": "Contacts",
+        "working.hours": "Working hours",
+        "bar": "Bar",
+        "kitchen": "Kitchen",
+        "monday": "Monday",
+        "thursday": "Thursday",
+        "friday": "Friday",
+        "saturday": "Saturday",
+        "sunday": "Sunday"
     },
     "lt": {
-        "menu": "Meniu"
+        "menu": "Meniu",
+        "phone": "Tel. nr.",
+        "address": "Adresas",
+        "contacts": "Kontaktai",
+        "working.hours": "Darbo laikas",
+        "bar": "Baras",
+        "kitchen": "Virtuvė",
+        "monday": "Pirmadienis",
+        "thursday": "Ketvirtadienis",
+        "friday": "Penktadienis",
+        "saturday": "Šeštadienis",
+        "sunday": "Sekmadienis"
     }
 }

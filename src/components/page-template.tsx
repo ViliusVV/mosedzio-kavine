@@ -1,10 +1,12 @@
+import { Locale } from "@/i18n-config";
 import Topbar from "./topbar";
 
 export default function PageTemplate(props: {
+  lang: Locale;
   children: React.ReactNode[] | React.ReactNode;
 }) {
   return <div className="">
-      <Topbar/>
+      <Topbar lang={props.lang}/>
       <div className="grid grid-rows justify-items-center min-h-screen md:px-8 pt-8 px-3 gap-8">
         <main className="flex flex-col gap-[32px] w-full lg:w-[900px] items-center">
           {props.children}

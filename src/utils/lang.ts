@@ -11,6 +11,8 @@ type LangData = {
 
 const langData = data as unknown as LangData
 
-export function T(lang: "lt" | "en", key: string): string {
-    return langData[lang][key] || langData[lang]["lt"] || key
+export type StringKey = keyof typeof data["lt"] | keyof typeof data["en"]
+
+export function T(lang: "lt" | "en", key: StringKey): string {
+    return langData[lang][key] || langData[lang]["lt"] || key as string
 }

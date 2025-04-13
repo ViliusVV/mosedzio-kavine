@@ -1,14 +1,17 @@
 import { MenuBack, MenuFront } from "@/components/menu";
 import PageTemplate from "@/components/page-template";
+import { PageParams } from "@/types";
 
 
-export default function MenuPage() {
-    return <PageTemplate>
+export default async function MenuPage(props: PageParams) {
+    const { lang } = await props.params;
+
+    return <PageTemplate lang={lang}>
         <ScrollHorizontal>
-            <MenuFront/>
+            <MenuFront lang={lang}/>
         </ScrollHorizontal>
         <ScrollHorizontal>
-            <MenuBack/>
+            <MenuBack lang={lang}/>
         </ScrollHorizontal>
     </PageTemplate>
 }
