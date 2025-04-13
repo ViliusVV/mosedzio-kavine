@@ -10,7 +10,7 @@ export default function PageTemplate(props: {
           {props.children}
         </main>
         <footer className="row-start-3 flex flex-wrap items-center justify-center">
-          <p>UAB "Bartva" {Date().slice(11, 15)}</p>
+          <p>{"UAB \"Bartva\" " + Date().slice(11, 15)}</p>
         </footer>
       </div>
     </div>

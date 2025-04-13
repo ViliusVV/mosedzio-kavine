@@ -1,11 +1,11 @@
 import PageTemplate from "@/components/page-template";
 
+
 export default function ContactsPage() {
     return <PageTemplate>
         <div className="flex flex-col gap-[32px] row-start-2">
             <h1 className="text-4xl">Kontaktai</h1>
             <div>
-                <p className="text-xl">UAB "Bartva"</p>
                 <p className="text-xl">Tel. nr.: +370 645 44112</p>
                 <p className="text-xl">Adresas: Skuodo r., Mosėdis, Kęstučio g. 6a</p>
             </div>

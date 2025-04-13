@@ -5,11 +5,11 @@
             {
                 "title": { "lt": "Dienos sriuba", "en": "Soup of the day" },
                 "note": { "lt": "Pasiteiraukite padavėjo", "en": "Ask the waiter" },
-                "price": 1.80
+                "price": 2
             },
             {
                 "title": { "lt": "Ciubulynė", "en": "Cold onion soup" },
-                "price": 3.50
+                "price": 4
             },
             {
                 "title": { "lt": "Šaltibarsčiai", "en": "Cold beetroot soup" },
