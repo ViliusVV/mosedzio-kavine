@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import data from '@/data/menu.json'
 import { Locale } from '@/i18n-config';
-import { StringKey, T } from '@/utils/lang';
+import {  T } from '@/utils/lang';
 
 type LocalisedString = {
     lt: string,
