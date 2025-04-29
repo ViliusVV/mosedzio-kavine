@@ -67,7 +67,6 @@ export function MenuBack(props: {lang: Locale}) {
             <div className='relative z-10 flex flex-col'>
                 <MenuGroup gap={-2} textSize="text-sm" lang={props.lang} group={menuData['vodka']}/>
                 <MenuGroup gap={-2} textSize="text-sm" lang={props.lang} group={menuData['brandy']}/>
-                <MenuGroup gap={-2} textSize="text-sm" lang={props.lang} group={menuData['rum']}/>
                 <MenuGroup gap={-2} textSize="text-sm" lang={props.lang} group={menuData['whiskey']}/>
                 <MenuGroup gap={-2} textSize="text-sm" lang={props.lang} group={menuData['wine']}/>
                 <MenuGroup gap={-2} textSize="text-sm" lang={props.lang} group={menuData['sparklingWine']}/>
@@ -75,6 +74,7 @@ export function MenuBack(props: {lang: Locale}) {
             <div className='relative z-10 flex flex-col'>
                 <MenuGroup gap={-2} textSize="text-sm" lang={props.lang} group={menuData['liquor']}/>
                 <MenuGroup gap={-2} textSize="text-sm" lang={props.lang} group={menuData['bitter']}/>
+                <MenuGroup gap={-2} textSize="text-sm" lang={props.lang} group={menuData['rum']}/>
                 <MenuGroup gap={-2} textSize="text-sm" lang={props.lang} group={menuData['tequila']}/>
                 <MenuGroup gap={-2} textSize="text-sm" lang={props.lang} group={menuData['cognac']}/>
                 <MenuGroup gap={-2} textSize="text-sm" lang={props.lang} group={menuData['beer']}/>
