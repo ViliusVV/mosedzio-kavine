@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /print
+Disallow: /dev
+Allow: /
+
+Sitemap: https://mosedziokavine.lt/sitemap.xml
