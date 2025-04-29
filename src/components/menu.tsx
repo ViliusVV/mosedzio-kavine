@@ -109,14 +109,19 @@ function MenuGroup(props: {group: MenuGroup, lang: Locale, gap?: number, textSiz
     const textSize = props.textSize ? props.textSize : 'text-lg';
     const groupGap = props.gap ? `mb-0` : `mb-2`;
 
-    function getTitle(item: LocalisedString, key: Locale) {
-        return item[key as keyof LocalisedString] || item.en || item.lt;
+    function getLang(item: LocalisedString) {
+        return item[lang] || item.en || item.lt;
+    }
+
+    function getGroupLang(key: keyof MenuGroup) {
+        const el = props.group[key] as LocalisedString
+        return el[lang] || el.en || el.lt;
     }
 
     return <div className={`font-serif ${groupGap}`}>
-        <h2 className={`text-2xl font-bold`}>{props.group.title[lang]}
+        <h2 className={`text-2xl font-bold`}>{getGroupLang('title')}
         { props.group.note && 
-            <span className="text-xs font-italic ml-2">({props.group.note[lang]})</span>
+            <span className="text-xs font-italic ml-2">({getGroupLang('note')})</span>
         }
         </h2>
 
@@ -124,9 +129,9 @@ function MenuGroup(props: {group: MenuGroup, lang: Locale, gap?: number, textSiz
         {
             props.group.items.map((item, index) => {
                 return <div key={index} className="flex flex-col">
-                    <p className={`${textSize} text-bold italic p-0 ${offset}`}>{getTitle(item.title, lang)} { item.smallPrice && `${item.smallPrice}€/`}{item.price}€ </p>
+                    <p className={`${textSize} text-bold italic p-0 ${offset}`}>{getLang(item.title)} { item.smallPrice && `${item.smallPrice}€/`}{item.price}€ </p>
                     { item.note && 
-                        <p className="text-xs font-italic mt-[-6px]">({item.note[lang]})</p>
+                        <p className="text-xs font-italic mt-[-6px]">({getLang(item.note)})</p>
                     }
                 </div>
             })
