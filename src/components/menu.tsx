@@ -10,6 +10,7 @@ type LocalisedString = {
 
 type MenuGroup = {
     title: LocalisedString
+    note?: LocalisedString
     items: {
         title: LocalisedString
         note?: LocalisedString
@@ -29,11 +30,11 @@ export function MenuFront(props: {lang: Locale}) {
     return <MenuWrapper>
         <div className='flex gap-36 py-4 px-16'>
             <div className='relative z-10 flex flex-col'>
-                <MenuGroup lang={props.lang} group={menuData['soups']}/>
-                <MenuGroup lang={props.lang} group={menuData['snacks']}/>
-                <MenuGroup lang={props.lang} group={menuData['salads']}/>
-                <MenuGroup lang={props.lang} group={menuData['desserts']}/>
-                <MenuGroup lang={props.lang} group={menuData['burgers']}/>
+                <MenuGroup gap={-1} textSize="text-md" lang={props.lang} group={menuData['soups']}/>
+                <MenuGroup gap={-1} textSize="text-md" lang={props.lang} group={menuData['snacks']}/>
+                <MenuGroup gap={-1} textSize="text-md" lang={props.lang} group={menuData['salads']}/>
+                <MenuGroup gap={-1} textSize="text-md" lang={props.lang} group={menuData['desserts']}/>
+                <MenuGroup gap={-1} textSize="text-md" lang={props.lang} group={menuData['burgers']}/>
 
                 <p className='text-orange-500 italic'>! {T(props.lang, 'alergens.notice')}</p> 
             </div>
@@ -59,25 +60,24 @@ export function MenuBack(props: {lang: Locale}) {
     return <MenuWrapper>
         <div className='flex gap-20 py-4 px-16'>
             <div className='relative z-10 flex flex-col'>
-                <MenuGroup gap={-1} lang={props.lang} group={menuData['hotDrinks']}/>
-                <MenuGroup gap={-1} lang={props.lang} group={menuData['coldDrinks']}/>
-                <MenuGroup gap={-1} lang={props.lang} group={menuData['alcoholCocktails']}/>
+                <MenuGroup gap={-1} textSize="text-md" lang={props.lang} group={menuData['hotDrinks']}/>
+                <MenuGroup gap={-1} textSize="text-md" lang={props.lang} group={menuData['coldDrinks']}/>
+                <MenuGroup gap={-1} textSize="text-md" lang={props.lang} group={menuData['alcoholCocktails']}/>
             </div>
             <div className='relative z-10 flex flex-col'>
-                <MenuGroup gap={-2} textSize="text-md" lang={props.lang} group={menuData['vodka']}/>
-                <MenuGroup gap={-2} textSize="text-md" lang={props.lang} group={menuData['brandy']}/>
-                <MenuGroup gap={-2} textSize="text-md" lang={props.lang} group={menuData['rum']}/>
-                <MenuGroup gap={-2} textSize="text-md" lang={props.lang} group={menuData['whiskey']}/>
-                <MenuGroup gap={-2} textSize="text-md" lang={props.lang} group={menuData['tequila']}/>
-                <MenuGroup gap={-2} textSize="text-md" lang={props.lang} group={menuData['vermouth']}/>
-                <MenuGroup gap={-2} textSize="text-md" lang={props.lang} group={menuData['cognac']}/>
+                <MenuGroup gap={-2} textSize="text-sm" lang={props.lang} group={menuData['vodka']}/>
+                <MenuGroup gap={-2} textSize="text-sm" lang={props.lang} group={menuData['brandy']}/>
+                <MenuGroup gap={-2} textSize="text-sm" lang={props.lang} group={menuData['rum']}/>
+                <MenuGroup gap={-2} textSize="text-sm" lang={props.lang} group={menuData['whiskey']}/>
+                <MenuGroup gap={-2} textSize="text-sm" lang={props.lang} group={menuData['wine']}/>
+                <MenuGroup gap={-2} textSize="text-sm" lang={props.lang} group={menuData['sparklingWine']}/>
             </div>
             <div className='relative z-10 flex flex-col'>
-                <MenuGroup gap={-2} textSize="text-md" lang={props.lang} group={menuData['liquor']}/>
-                <MenuGroup gap={-2} textSize="text-md" lang={props.lang} group={menuData['bitter']}/>
-                <MenuGroup gap={-2} textSize="text-md" lang={props.lang} group={menuData['wine']}/>
-                <MenuGroup gap={-2} textSize="text-md" lang={props.lang} group={menuData['sparklingWine']}/>
-                <MenuGroup gap={-2} textSize="text-md" lang={props.lang} group={menuData['beer']}/>
+                <MenuGroup gap={-2} textSize="text-sm" lang={props.lang} group={menuData['liquor']}/>
+                <MenuGroup gap={-2} textSize="text-sm" lang={props.lang} group={menuData['bitter']}/>
+                <MenuGroup gap={-2} textSize="text-sm" lang={props.lang} group={menuData['tequila']}/>
+                <MenuGroup gap={-2} textSize="text-sm" lang={props.lang} group={menuData['cognac']}/>
+                <MenuGroup gap={-2} textSize="text-sm" lang={props.lang} group={menuData['beer']}/>
 
             </div>
         </div>
@@ -114,7 +114,12 @@ function MenuGroup(props: {group: MenuGroup, lang: Locale, gap?: number, textSiz
     }
 
     return <div className={`font-serif ${groupGap}`}>
-        <h2 className={`text-2xl font-bold`}>{props.group.title[lang]}</h2>
+        <h2 className={`text-2xl font-bold`}>{props.group.title[lang]}
+        { props.group.note && 
+            <span className="text-xs font-italic ml-2">({props.group.note[lang]})</span>
+        }
+        </h2>
+
         <div className="">
         {
             props.group.items.map((item, index) => {
