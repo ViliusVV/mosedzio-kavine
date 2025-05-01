@@ -1,6 +1,10 @@
 User-agent: *
+
 Disallow: /print
 Disallow: /dev
+Disallow: /lv
+Disallow: /en
+
 Allow: /
 
 Sitemap: https://mosedziokavine.lt/sitemap.xml
