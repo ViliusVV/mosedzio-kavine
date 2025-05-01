@@ -22,7 +22,7 @@ export const metadata: Metadata = {
 };
 
 export async function generateStaticParams() {
-  return [{ lang: 'lt' }, { lang: 'en' }]
+  return [{ lang: 'lt' }, { lang: 'en' }, { lang: 'lv' }]
 }
 
 export default function RootLayout({
@@ -32,7 +32,7 @@ export default function RootLayout({
   
 }>) {
   return (
-    <html lang="en">
+    <html lang="lt">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         {children}
       </body>
