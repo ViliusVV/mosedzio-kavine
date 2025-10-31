@@ -1,974 +1,982 @@
 {
-    "soups": {
-        "title": { 
-            "lt": "Sriubos",
-            "en": "Soups",
-            "lv": "Zupas"
-            },
-        "items": [
-            {
-                "title": { 
-                    "lt": "Dienos sriuba", 
-                    "en": "Soup of the day",
-                    "lv": "Dienas zupa"
-                    
-                },
-                "note": { 
-                    "lt": "Pasiteiraukite padavėjo",
-                    "en": "Ask the waiter",
-                    "lv": "Jautājiet viesmīlim"
-                },
-                "price": 2.5
-            },
-            {
-                "title": { 
-                    "lt": "Ciubulynė",
-                    "en": "Cold onion soup",
-                    "lv": "Sīpolu zupa"
-                },
-                "price": 4.5
-            },
-            {
-                "title": { 
-                    "lt": "Šaltibarščiai",
-                    "en": "Cold beet soup",
-                    "lv": "Aukstā zupa"
-                },
-                "price": 4.5
-            },
-            {
-                "title": { 
-                    "lt": "Čili sriuba",
-                    "en": "Chili soup",
-                    "lv": "Čili zupa"
-                },
-                "price": 5.5
-            }
-        ]
+  "soups": {
+    "title": {
+      "lt": "Sriubos",
+      "en": "Soups",
+      "lv": "Zupas"
     },
-    "snacks": {
-        "title": { 
-            "lt": "Užkandžiai", 
-            "en": "Snacks",
-            "lv": "Uzkodas"
-        },
-        "items": [
-            {
-                "title": { 
-                    "lt": "Kepta duona su sūriu",
-                    "en": "Fried bread sticks with cheese",
-                    "lv": "Cepta maize ar sieru"
-                },
-                "price": 6
-            },
-            {
-                "title": {
-                    "lt": "Kepta duona su \"Džiugo\" sūrio užtepėle",
-                    "en": "Fried bread with hard cheese spread",
-                    "lv": "Cepta maize ar cieto sieru"
-                },
-                "price": 6
-            },
-            {
-                "title": { 
-                    "lt": "Užkandžių rinkinys",
-                    "en": "Snack assortment",
-                    "lv": "Uzkodu komplekts"
-                },
-                "note": {
-                    "lt": "Naminiai bulvių traškučiai, sūris, kepta duona",
-                    "en": "Homemade potato chips, cheese, fried bread",
-                    "lv": "Pašizveidoti kartupeļu čipsi, siers, cepta maize"
+    "items": [
+      {
+        "title": {
+          "lt": "Dienos sriuba",
+          "en": "Soup of the day",
+          "lv": "Dienas zupa"
 
-                },
-                "price": 8.5
-            },
-            {
-                "title": { 
-                    "lt": "Užkandžių rinkinys \"Mega\"",
-                    "en": "Snack assortment \"Mega\"",
-                    "lv": "Uzkodu komplekts \"Mega\""
-                },
-                "note": {
-                    "lt": "Sūrio spurgos, krevetės, naminiai bulvių traškučiai, alyvuogės",
-                    "en": "Cheese balls, shrimps, homemade potato chips, olives",
-                    "lv": "Siera bumbiņas, garneles, pašizveidoti kartupeļu čipsi, olīvas"
+        },
+        "note": {
+          "lt": "Pasiteiraukite padavėjo",
+          "en": "Ask the waiter",
+          "lv": "Jautājiet viesmīlim"
+        },
+        "price": 2.5
+      },
+      {
+        "title": {
+          "lt": "Ciubulynė",
+          "en": "Cold onion soup",
+          "lv": "Sīpolu zupa"
+        },
+        "price": 4.5
+      },
+      {
+        "title": {
+          "lt": "Žemaitiškas užkandis",
+          "en": "Local cold soup with snacks",
+          "lv": "Žemaišu aukstā zupa"
+        },
+        "price": 10
+      },
+      {
+        "title": {
+          "lt": "Čili sriuba",
+          "en": "Chili soup",
+          "lv": "Čili zupa"
+        },
+        "price": 6
+      }
+    ]
+  },
+  "snacks": {
+    "title": {
+      "lt": "Užkandžiai",
+      "en": "Snacks",
+      "lv": "Uzkodas"
+    },
+    "items": [
+      {
+        "title": {
+          "lt": "Kepta duona su sūriu",
+          "en": "Fried bread sticks with cheese",
+          "lv": "Cepta maize ar sieru"
+        },
+        "price": 7
+      },
+      {
+        "title": {
+          "lt": "Kepta duona su \"Džiugo\" sūrio užtepėle",
+          "en": "Fried bread with hard cheese spread",
+          "lv": "Cepta maize ar cieto sieru"
+        },
+        "price": 7
+      },
+      {
+        "title": {
+          "lt": "Užkandžių rinkinys",
+          "en": "Snack assortment",
+          "lv": "Uzkodu komplekts"
+        },
+        "note": {
+          "lt": "Naminiai bulvių traškučiai, sūris, kepta duona",
+          "en": "Homemade potato chips, cheese, fried bread",
+          "lv": "Pašizveidoti kartupeļu čipsi, siers, cepta maize"
 
-                },
-                "price": 16
-            },
-            {
-                "title": {
-                    "lt": "Krevetės tešlojoe",
-                    "en": "Batter-Fried shrimps",
-                    "lv": "Ceptas garneles"
-                },
-                "price": 7.5
-            },
-            {
-                "title": {
-                    "lt": "Žirniai su spirgučiais",
-                    "en": "Peas with cracklings (bacon)",
-                    "lv": "Zirņi ar speķi"
-                },
-                "price": 6
-            },
-            {
-                "title": {
-                    "lt": "Karštų sūrio spurgyčių rinkinys",
-                    "en": "Fried cheese ball set",
-                    "lv": "Ceptas siers"
-                },
-                "price": 7.50
-            },
-            {
-                "title": {
-                    "lt": "Saldžiosios bulvės su padažu",
-                    "en": "Sweet potatoes with sauce",
-                    "lv": "Salda kartupeļu ar mērci"
-                },
-                "price": 5.5
-            },
-            {
-                "title": {
-                    "lt": "Naminiai bulvių traškučiai",
-                    "en": "Homemade potato chips",
-                    "lv": "Pašizveidoti kartupeļu čipsi"
-                },
-                "price": 5.5
-            }
-        ]
-    },
-    "salads": {
-        "title": { 
-            "lt": "Salotos",
-            "en": "Salads",
-            "lv": "Salāti"
         },
-        "items": [
-            {
-                "title": { 
-                    "lt": "Burokėlių salots su fetos sūrio",
-                    "en": "Beet salad with feta cheese",
-                    "lv": "Bietes ar fetas sieru"
-                },
-                "price": 7.5
-            },
-            {
-                "title": { 
-                    "lt": "Daržovių salotos su fetos sūriu",
-                    "en": "Vegetable salad with feta cheese",
-                    "lv": "Dārzeņu salāti ar fetas sieru"
-                },
-                "price": 7.5
-            },
-            {
-                "title": { 
-                    "lt": "Vištienos salotos", 
-                    "en": "Chicken salad",
-                    "lv": "Vistas salāti"
-                },
-                "price": 9.5
-            }
-        ]
-    },
-    "desserts": {
+        "price": 9.5
+      },
+      {
         "title": {
-            "lt": "Desertai",
-            "en": "Desserts",
-            "lv": "Deserti"
-        },
-        "items": [
-            {
-                "title": { 
-                    "lt": "Ledai su šokoladu",
-                    "en": "Ice-cream with chocolate",
-                    "lv": "Saldējums ar šokolādi"
-                },
-                "price": 4.00
-            },
-            {
-                "title": { 
-                    "lt": "Ledai su šviežiomis uogomis",
-                    "en": "Ice-cream with fresh berries",
-                    "lv": "Saldējums ar ogām"
-                },
-                "price": 4.00
-            },
-            {
-                "title": {
-                    "lt": "Pieno kokteilis",
-                    "en": "Milkshake",
-                    "lv": "Piena kokteilis"
-                },
-                "note": {
-                    "lt": "Braškinis arba bananinis",
-                    "en": "Strawberry or bannana",
-                    "lv": "Zemeņu vai banānu"
-                },
-                "price": 4
-            },
-            {
-                "title": {
-                    "lt": "\"Lava\" šokoladinis pyragaitis",
-                    "en": "Lava cake",
-                    "lv": "\"Lava\" šokolādes kūka"
-                },
-                "price": 4.5
-            }
-        ]
-    },
-    "hotDishes": {
-        "title": { 
-            "lt": "Karšti patiekalai",
-            "en": "Hot dishes",
-            "lv": "Karstie ēdieni"
-        },
-        "items": [
-            {
-                "title": { 
-                    "lt": "Grill kiaulienos sprandinė viskio marinate",
-                    "en": "Grilled pork neck in whiskey marinade",
-                    "lv": "Grilēta cūkas kakla gaļa viskija marinādē"
-                },
-                "price": 11.5
-            },
-            {
-                "title": {
-                    "lt": "Grill kiaulienos šonkauliai su BBQ burbono glazūra",
-                    "en": "Grilled pork ribs with BBQ bourbon glaze",
-                    "lv": "Grilēti cūkas ribas ar BBQ bourbon glazūru"
-                },
-                "price": 18,
-                "smallPrice": 12
-            },
-            {
-                "title": {
-                    "lt": "Grill vištienos",
-                    "en": "Grilled chicken steak",
-                    "lv": "Grilēta vistas fileja"
-                },
-                "price": 11
-            },
-            {
-                "title": { 
-                    "lt": "Grill lašišos kepsnys",
-                    "en": "Grilled salmon steak",
-                    "lv": "Grilēta laša fileja"
-                },
-                "price": 15
-            },
-            {
-                "title": { 
-                    "lt": "Menkės kepsnys su sezamo sėklomis",
-                    "en": "Cod fish steak with sesame seeds",
-                    "lv": "Menca ar sezama sēklām"
-                },
-                "price": 10
-            },
-            {
-                "title": {
-                    "lt": "Grill rinkinys \"Dviem\"",
-                    "en": "Grill set for two",
-                    "lv": "Grilēts komplekts diviem"
-                },
-                "price": 27
-            },
-            {
-                "title": { 
-                    "lt": "Jautienos žandai mėsos padaže",
-                    "en": "Beef cheeks with gravy sauce",
-                    "lv": "Liellopa vaigiņi ar mērci"
-                },
-                "price": 16
-            },
-            {
-                "title": { 
-                    "lt": "Kiaulienos karbonadas / su sūriu",
-                    "en": "Pork chop with/without cheese topping",
-                    "lv": "Cūkas karbonāde ar sieru"
-                },
-                "smallPrice": 9.5,
-                "price": 10
-            },
-            {
-                "title": { 
-                    "lt": "Vištienos kepsnys / su sūriu",
-                    "en": "Chicken steak with/without cheese topping",
-                    "lv": "Vistas fileja ar sieru"
-                },
-                "smallPrice": 9.5,
-                "price": 10
-            },
-            {
-                "title": { 
-                    "lt": "Vištiena grietinėlės-sūrio padaže",
-                    "en": "Chicken strips in cream-cheese sauce",
-                    "lv": "Vistas strēmelītes krējuma-siera mērcē"
-                },
-                "price": 10
-            }
-        ]
-    },
-    "burgers": {
-        "title": { 
-            "lt": "Mėsainiai", 
-            "en": "Burgers",
-            "lv": "Hamburgeri"
-        },
-        "items": [
-            {
-                "title": { 
-                    "lt": "Vištienos mėsainis su fri bulvytėmis",
-                    "en": "Chicken burger with french fires",
-                    "lv": "Vistas burgeris ar frī kartupeļiem"
-                },
-                "note": {
-                    "lt": "Grill vištiena, šoninė, svogūnai, sūris, pomidorai, agurkai, salotos",
-                    "en": "Grilled chicken, bacon, onion, cheese, tomato, cucumber, salad",
-                    "lv": "Grilēta vista, bekons, sīpoli, siers, tomāti, gurķi, salāti"
-                },
-                "price": 11
-            }
-        ]
-    },
-    "otherDishes": {
-        "title": { 
-            "lt": "Kiti patiekalai",
-            "en": "Other dishes",
-            "lv": "Citi ēdieni"
-        },
-        "items": [
-            {
-                "title": { 
-                    "lt": "Silkė su karštomis bulvėmis",
-                    "en": "Herring with hot potatoes",
-                    "lv": "Siļķe ar karstiem kartupeļiem"
-                },
-                "price": 7.5
-            },
-            {
-                "title": { 
-                    "lt": "Gruzdintos bulvytes su pomidorų padažu",
-                    "en": "French fries with tomato sauce",
-                    "lv": "Frī kartupeļi ar tomātu mērci"
-                },
-                "price": 4.5
-            },
-            {
-                "title": { 
-                    "lt": "Gruzdintos bulvytes su vištienos \"popsiukais\"", 
-                    "en": "French fries with chicken nuggets",
-                    "lv": "Frī kartupeļi ar vistas \"popsiukiem\""
-                },
-                "price": 7.5
-            },
-            {
-                "title": { 
-                    "lt": "Žemaičių blynai", 
-                    "en": "Meat stuffed potato pancakes",
-                    "lv": "Žemaišu pankūkas"
-                },
-                "price": 7.5
-            },
-            {
-                "title": { 
-                    "lt": "Blyneliai su varške ir uogiene", 
-                    "en": "Crepes with curd and jam",
-                    "lv": "Pankūkas ar biezpienu un ievārījumu"
-                },
-                "price": 6
-            },
-            {
-                "title": { 
-                    "lt": "Blyneliai su bananais ir šokoladu", 
-                    "en": "Crepes with banana and chocolate",
-                    "lv": "Pankūkas ar banāniem un šokolādi"
-                },
-                "price": 6
-            }
-        ]
-    },
-    "hotDrinks": {
-        "title": { 
-            "lt": "Karšti gerimai",
-            "en": "Hot drinks",
-            "lv": "Karstie dzērieni"
-        },
-        "items": [
-            {
-                "title": { 
-                    "lt": "Juoda kava", 
-                    "en": "Black coffee",
-                    "lv": "Melna kafija"
-                },
-                "price": 2
-            },
-            {
-                "title": {
-                    "lt": "Espresso", 
-                    "en": "Espresso",
-                    "lv": "Espresso"
-                },
-                "price": 2
-            },
-            {
-                "title": {
-                    "lt": "Kava su pienu",
-                    "en": "Coffee with milk",
-                    "lv": "Kafija ar pienu"
-                },
-                "price": 2.50
-            },
-            {
-                "title": { 
-                    "lt": "Latte", 
-                    "en": "Latte",
-                    "lv": "Latte"
-                },
-                "price": 3
-            },
-            {
-                "title": { 
-                    "lt": "Kapučino", 
-                    "en": "Cappuccino",
-                    "lv": "Kapučino"
-                },
-                "price": 3
-            },
-            {
-                "title": { 
-                    "lt": "Arbata", 
-                    "en": "Tea",
-                    "lv": "Tēja"
-                },
-                "price": 2.00
-            }
-        ]
-    },
-    "coldDrinks": {
-        "title": { 
-            "lt": "Gėrimai",
-            "en": "Beverages",
-            "lv": "Dzērieni"
-        },
-        "items": [
-            {
-                "title": { 
-                    "lt": "Sultys", 
-                    "en": "Juice",
-                    "lv": "Sula"
-                },
-                "price": 1.5
-            },
-            {
-                "title": { 
-                    "lt": "Mineralinis vanduo",
-                    "en": "Mineral water",
-                    "lv": "Minerālais ūdens"
-                },
-                "note": { 
-                    "lt": "Gazuotas arba negazuotas", 
-                    "en": "Sparkling or still",
-                    "lv": "Gāzēts vai negāzēts"
-                },
-                "price": 2
-            },
-            {
-                "title": { 
-                    "lt": "CocaCola, Sprite, Fanta", 
-                    "en": "CocaCola, Sprite, Fanta",
-                    "lv": "CocaCola, Sprite, Fanta"
-                },
-                "price": 2.5
-            },
-            {
-                "title": { 
-                    "lt": "Energetinis gėrimas \"Red Bull\"",
-                    "en": "Energy drink \"Red Bull\"",
-                    "lv": "Enerģijas dzēriens \"Red Bull\""
-                },
-                "price": 3.50
-            },
-            {
-                "title": { 
-                    "lt": "Gira",
-                    "en": "Kvass (traditional drink)",
-                    "lv": "Gira"
-                },
-                "note": { 
-                    "lt": "0.3l arba 0.5l",
-                    "en": "0.3l or 0.5l",
-                    "lv": "0.3l vai 0.5l"
-                },
-                "smallPrice": 2.5,
-                "price": 3
-            },
-            {
-                "title": { 
-                    "lt": "Ąsotis vandens su vaisiais",
-                    "en": "Jug of water with fruits",
-                    "lv": "Ūdens ar augļiem"
-                },
-                "price": 2.00
-            },
-            {
-                "title": { 
-                    "lt": "Šalta kava su likeriu",
-                    "en": "Cold coffee with liquor",
-                    "lv": "Auksta kafija ar liķieri"
-                },
-                "price": 6
-            },
-            {
-                "title": { 
-                    "lt": "Alchoholinis kavos kokteilis",
-                    "en": "Alcohol coffee cocktail",
-                    "lv": "Alkoholiskais kafijas kokteilis"
-                },
-                "price": 6
-            }
-        ]
-    },
-    "alcoholCocktails": {
-        "title": { 
-            "lt": "Alkoholiniai kokteiliai", 
-            "en": "Alcohol cocktails",
-            "lv": "Alkoholiskie kokteiļi"
-        },
-        "items": [
-            {
-                "title": { 
-                    "lt": "Atsuktuvas",
-                    "en": "Screwdriver",
-                    "lv": "Atslēdznieks"
-                },
-                "price": 8
-            },
-            {
-                "title": { 
-                    "lt": "Mochito",
-                    "en": "Mojito"
-                },
-                "price": 8
-            },
-            {
-                "title": { 
-                    "lt": "Sex on the beach",
-                    "en": "Sex on the beach"
-                },
-                "price": 8
-            },
-            {
-                "title": { 
-                    "lt": "Aperol spritz",
-                    "en": "Aperol spritz" 
-                },
-                "price": 8
-            },
-            {
-                "title": { 
-                    "lt": "Paslaptis", 
-                    "en": "Secret",
-                    "lv": "Noslēpums"
-                },
-                "price": 8
-            },
-            {
-                "title": {
-                    "lt": "Vasara", 
-                    "en": "Summer",
-                    "lv": "Vasara"
-                },
-                "price": 8
-            }
-        ]
-    },
-    "vodka": {
-        "title": { 
-            "lt": "Degtinė", 
-            "en": "Vodka",
-            "lv": "Degvīns"
+          "lt": "Užkandžių rinkinys \"Mega\"",
+          "en": "Snack assortment \"Mega\"",
+          "lv": "Uzkodu komplekts \"Mega\""
         },
         "note": {
-            "lt": "50ml"
+          "lt": "Sūrio spurgos, krevetės, naminiai bulvių traškučiai, alyvuogės",
+          "en": "Cheese balls, shrimps, homemade potato chips, olives",
+          "lv": "Siera bumbiņas, garneles, pašizveidoti kartupeļu čipsi, olīvas"
+
         },
-        "items": [
-            {
-                "title": { "lt": "Auksinė Lietuviška" },
-                "price": 2.5
-            },
-            {
-                "title": { "lt": "Šimtmečio degtinė Stumbras" },
-                "price": 2.5
-            },
-            {
-                "title": { "lt": "Zelionaja Marka" },
-                "price": 2.5
-            }
-        ]
-    },
-    "brandy": {
-        "title": { 
-            "lt": "Brendis", 
-            "en": "Brandy",
-            "lv": "Brendijs"
-        },
-        "note": {
-            "lt": "50ml"
-        },
-        "items": [
-            {
-                "title": { "lt": "Gloria 5*" },
-                "price": 3
-            },
-            {
-                "title": { "lt": "Imperial XII" },
-                "price": 3
-            },
-            {
-                "title": { "lt": "Alita" },
-                "price": 3
-            },
-            {
-                "title": { "lt": "J.P Chenet HO" },
-                "price": 3
-            },
-            {
-                "title": { "lt": "Torres 5Y" },
-                "price": 3.00
-            },
-            {
-                "title": { "lt": "Torres 10Y" },
-                "price": 3.50
-            },
-            {
-                "title": { "lt": "Torres 15Y" },
-                "price": 6.00
-            },
-            {
-                "title": { "lt": "Torres 20Y" },
-                "price": 7.5
-            }
-        ]
-    },
-    "rum": {
-        "title": { 
-            "lt": "Romas",
-             "en": "Rum",
-            "lv": "Rums"
-        },
-        "note": {
-            "lt": "50ml"
-        },
-        "items": [
-            {
-                "title": { "lt": "Bacardi Black" },
-                "price": 4
-            },
-            {
-                "title": { "lt": "Bacardi Superior Blanco" },
-                "price": 4
-            }
-        ]
-    },
-    "whiskey": {
+        "price": 19
+      },
+      {
         "title": {
-            "lt": "Viskis",
-            "en": "Whiskey",
-            "lv": "Viskijs"
+          "lt": "Krevetės tešlojoe",
+          "en": "Batter-Fried shrimps",
+          "lv": "Ceptas garneles"
         },
-        "note": {
-            "lt": "50ml"
-        },
-        "items": [
-            {
-                "title": { "lt": "Scottish Leader" },
-                "price": 3
-            },
-            {
-                "title": { "lt": "Ballantines" },
-                "price": 3
-            },            {
-                "title": { "lt": "Tullamore Dew" },
-                "price": 3
-            },
-            {
-                "title": { "lt": "Black Velvet" },
-                "price": 3
-            },
-            {
-                "title": { "lt": "Grant's" },
-                "price": 3
-            }
-        ]
-    },
-    "tequila": {
-        "title": { 
-            "lt": "Tekila",
-             "en": "Tequila",
-            "lv": "Tekila"
-        },
-        "note": {
-            "lt": "50ml"
-        },
-        "items": [
-            {
-                "title": { "lt": "Sierra Tequila Silver"},
-                "price": 4
-            }
-        ]
-    },
-    "gin": {
-        "title": { 
-            "lt": "Džinas",
-            "en": "Gin",
-            "lv": "Džins"
-        },
-        "note": {
-            "lt": "50ml"
-        },
-        "items": [
-            {
-                "title": { "lt": "Kensington Dry Gin" },
-                "price": 2.5
-            }
-        ]
-    },
-    "liquor": {
-        "title": { 
-            "lt": "Likeris",
-            "en": "Liquor",
-            "lv": "Liķieris"
-        },
-        "note": {
-            "lt": "50ml"
-        },
-        "items": [
-            {
-                "title": { "lt": "Amaretto Venine Orginale" },
-                "price":3
-            },
-            {
-                "title": { "lt": "Keglevich Vodka" },
-                "price": 3
-            },
-            {
-                "title": { 
-                    "lt": "Poema kreminis su kava",
-                    "en": "\"Poema\" creamy with coffe",
-                    "lv": "\"Poema\" krēmveida ar kafiju"
-                },
-                "price": 3
-            },
-            {
-                "title": { "lt": "Vana Tallinn" },
-                "price": 3.00
-            },
-            {
-                "title": { "lt": "Jagermeister" },
-                "price": 4
-            }
-        ]
-    },
-    "bitter": {
-        "title": { 
-            "lt": "Trauktinė",
-            "en": "Bitter",
-            "lv": "Bitters"
-        },
-        "note": {
-            "lt": "50ml"
-        },
-        "items": [
-            {
-                "title": { "lt": "Raudonos Devynerios" },
-                "price": 3
-            },
-            {
-                "title": { "lt": "Trejos Devynerios" },
-                "price": 3
-            },
-            {
-                "title": { "lt": "Žalios Devynerios" },
-                "price": 3
-            },
-            {
-                "title": { "lt": "Dainava" },
-                "price": 3
-            },
-            {
-                "title": { "lt": "Palanga" },
-                "price": 3
-            }
-        ]
-    },
-    "wine": {
-        "title": { 
-            "lt": "Vynas",
-            "en": "Wine",
-            "lv": "Vīns"
-        },
-        "note": {
-            "lt": "100ml"
-        },
-        "items": [
-            {
-                "title": { "lt": "J.P Chenet Cabernet" },
-                "price": 3
-            },
-            {
-                "title": { "lt": "J.P Chenet Colombard" },
-                "price": 3
-            },
-            {
-                "title": { "lt": "J.P Chenet Medium Sweet White" },
-                "price": 3
-            },
-            {
-                "title": { "lt": "J.P Chenet Medium Sweet Rouge" },
-                "price": 3
-            },
-            {
-                "title": { "lt": "Voruta" },
-                "price":3
-            },
-            {
-                "title": { "lt": "Frontera Late Harvest" },
-                "price": 3
-            }
-        ]
-    },
-    "sparklingWine": {
-        "title": { 
-            "lt": "Putojantis vynas",
-            "en": "Sparkling wine",
-            "lv": "Putojošais vīns"
-        },
-        "note": {
-            "lt": "100ml"
-        },
-        "items": [
-            {
-                "title": { "lt": "Alita" },
-                "price": 3
-            }
-        ]
-    },
-    "cognac": {
-        "title": { 
-            "lt": "Konjakas",
-            "en": "Cognac",
-            "lv": "Konjaks"
-        },
-        "items": [
-            {
-                "title": { "lt": "Hennessy VS"},
-                "price": 7.00
-            },           
-            {
-                "title": { "lt": "Courvoiseier VSOP" },
-                "price": 8.00
-            }
-        ]
-    },
-    "beer": {
+        "price": 7.5
+      },
+      {
         "title": {
-            "lt": "Alus",
-            "en": "Beer",
-            "lv": "Alus"
+          "lt": "Žirniai su spirgučiais",
+          "en": "Peas with cracklings (bacon)",
+          "lv": "Zirņi ar speķi"
         },
-        "items": [
-            {
-                "title": { 
-                    "lt": "Švyturys Ekstra 5.2%"
-                },
-                "note": {
-                    "lt": "pilstomas 0.33l/0.5l",
-                    "en": "draft 0.33l/0.5l",
-                    "lv": "Izlejamais 0.33l/0.5l"
-                },
-                "smallPrice": 3.50,
-                "price": 4.50
-            },
-            {
-                "title": { 
-                    "lt": "Švyturys Baltijos 5.8%"
-                },
-                "note": {
-                    "lt": "but. 0.5l",
-                    "en": "bottle 0.5l",
-                    "lv": "pudelē 0.5l"
-                },
-                "price": 4.50
-            },
-            {
-                "title": { 
-                    "lt": "Grimbergen Dubbel 6.5%"
-                },
-                "note": {
-                    "lt": "but. 0.25l/0.5l",
-                    "en": "bottle 0.25l/0.5l",
-                    "lv": "pudelē 0.25l/0.5l"
-                },
-                "smallPrice": 3.50,
-                "price": 6
-            },
-            {
-                "title": { 
-                    "lt": "Kronenbourg 1664 Blanc"
-                },
-                "note": {
-                    "lt": "skard. 0.5l",
-                    "en": "can 0.5l",
-                    "lv": "skardē 0.5l"
-                },
-                "price": 4.50
-            },
-            {
-                "title": { 
-                    "lt": "Švyturys Extra 0.5%"
-                },
-                "note": {
-                    "lt": "skard. 0.5l, nealkoholinis",
-                    "en": "can 0.5l, non-alcoholic",
-                    "lv": "skardē 0.5l, bezalkoholis"
-                },
-                "price": 4.0
-            },
-            {
-                "title": { 
-                    "lt": "Kronenbourg 1664 Blanc 0.5%"
-                },
-                "note": {
-                    "lt": "but. 0.33l, nealkoholinis",
-                    "en": "bottle 0.33l, non-alcoholic",
-                    "lv": "pudelē 0.33l, bezalkoholis"
-                },
-                "price": 3.50
-            },
-            {
-                "title": { 
-                    "lt": "Somersby 4.5%"
-                },
-                "note": {
-                    "lt": "skard. 0.5l",
-                    "en": "can 0.5l",
-                    "lv": "skardē 0.5l"
-                },
-                "price": 4.50
-            },
-            {
-                "title": { 
-                    "lt": "Somersby 0.5%"
-                },
-                "note": {
-                    "lt": "skard. 0.5l, nealkoholinis",
-                    "en": "can 0.5l, non-alcoholic",
-                    "lv": "skardē 0.5l, bezalkoholis"
-                },
-                "price": 4.0
-            }
-        ]
-    }
+        "price": 7.5
+      },
+      {
+        "title": {
+          "lt": "Karštų sūrio spurgyčių rinkinys",
+          "en": "Fried cheese ball set",
+          "lv": "Ceptas siers"
+        },
+        "price": 7.5
+      },
+      {
+        "title": {
+          "lt": "Saldžiosios bulvės su padažu",
+          "en": "Sweet potatoes with sauce",
+          "lv": "Salda kartupeļu ar mērci"
+        },
+        "price": 6
+      },
+      {
+        "title": {
+          "lt": "Naminiai bulvių traškučiai",
+          "en": "Homemade potato chips",
+          "lv": "Pašizveidoti kartupeļu čipsi"
+        },
+        "price": 6
+      }
+    ]
+  },
+  "salads": {
+    "title": {
+      "lt": "Salotos",
+      "en": "Salads",
+      "lv": "Salāti"
+    },
+    "items": [
+      {
+        "title": {
+          "lt": "Burokėlių salots su fetos sūrio",
+          "en": "Beet salad with feta cheese",
+          "lv": "Bietes ar fetas sieru"
+        },
+        "price": 8
+      },
+      {
+        "title": {
+          "lt": "Daržovių salotos su fetos sūriu",
+          "en": "Vegetable salad with feta cheese",
+          "lv": "Dārzeņu salāti ar fetas sieru"
+        },
+        "price": 8
+      },
+      {
+        "title": {
+          "lt": "Vištienos salotos",
+          "en": "Chicken salad",
+          "lv": "Vistas salāti"
+        },
+        "price": 10
+      }
+    ]
+  },
+  "desserts": {
+    "title": {
+      "lt": "Desertai",
+      "en": "Desserts",
+      "lv": "Deserti"
+    },
+    "items": [
+      {
+        "title": {
+          "lt": "Ledai su šokoladu",
+          "en": "Ice-cream with chocolate",
+          "lv": "Saldējums ar šokolādi"
+        },
+        "price": 4.00
+      },
+      {
+        "title": {
+          "lt": "Ledai su šviežiomis uogomis",
+          "en": "Ice-cream with fresh berries",
+          "lv": "Saldējums ar ogām"
+        },
+        "price": 4.00
+      },
+      {
+        "title": {
+          "lt": "Pieno kokteilis",
+          "en": "Milkshake",
+          "lv": "Piena kokteilis"
+        },
+        "note": {
+          "lt": "Braškinis arba bananinis",
+          "en": "Strawberry or bannana",
+          "lv": "Zemeņu vai banānu"
+        },
+        "price": 4
+      },
+      {
+        "title": {
+          "lt": "\"Lava\" šokoladinis pyragaitis",
+          "en": "Lava cake",
+          "lv": "\"Lava\" šokolādes kūka"
+        },
+        "price": 4.5
+      }
+    ]
+  },
+  "hotDishes": {
+    "title": {
+      "lt": "Karšti patiekalai",
+      "en": "Hot dishes",
+      "lv": "Karstie ēdieni"
+    },
+    "items": [
+      {
+        "title": {
+          "lt": "Grill kiaulienos sprandinė viskio marinate",
+          "en": "Grilled pork neck in whiskey marinade",
+          "lv": "Grilēta cūkas kakla gaļa viskija marinādē"
+        },
+        "price": 13
+      },
+      {
+        "title": {
+          "lt": "Grill kiaulienos šonkauliai su BBQ burbono glazūra",
+          "en": "Grilled pork ribs with BBQ bourbon glaze",
+          "lv": "Grilēti cūkas ribas ar BBQ bourbon glazūru"
+        },
+        "price": 19,
+        "smallPrice": 14
+      },
+      {
+        "title": {
+          "lt": "Grill vištienos",
+          "en": "Grilled chicken steak",
+          "lv": "Grilēta vistas fileja"
+        },
+        "price": 13
+      },
+      {
+        "title": {
+          "lt": "Grill lašišos kepsnys",
+          "en": "Grilled salmon steak",
+          "lv": "Grilēta laša fileja"
+        },
+        "price": 16
+      },
+      {
+        "title": {
+          "lt": "Menkės kepsnys su sezamo sėklomis",
+          "en": "Cod fish steak with sesame seeds",
+          "lv": "Menca ar sezama sēklām"
+        },
+        "price": 11.5
+      },
+      {
+        "title": {
+          "lt": "Grill rinkinys \"Dviem\"",
+          "en": "Grill set for two",
+          "lv": "Grilēts komplekts diviem"
+        },
+        "price": 31
+      },
+      {
+        "title": {
+          "lt": "Jautienos žandai mėsos padaže",
+          "en": "Beef cheeks with gravy sauce",
+          "lv": "Liellopa vaigiņi ar mērci"
+        },
+        "price": 17
+      },
+      {
+        "title": {
+          "lt": "Kiaulienos karbonadas / su sūriu",
+          "en": "Pork chop with/without cheese topping",
+          "lv": "Cūkas karbonāde ar sieru"
+        },
+        "smallPrice": 11,
+        "price": 11.5
+      },
+      {
+        "title": {
+          "lt": "Vištienos kepsnys / su sūriu",
+          "en": "Chicken steak with/without cheese topping",
+          "lv": "Vistas fileja ar sieru"
+        },
+        "smallPrice": 11.5,
+        "price": 11
+      },
+      {
+        "title": {
+          "lt": "Vištiena grietinėlės-sūrio padaže",
+          "en": "Chicken strips in cream-cheese sauce",
+          "lv": "Vistas strēmelītes krējuma-siera mērcē"
+        },
+        "price": 12
+      }
+    ]
+  },
+  "burgers": {
+    "title": {
+      "lt": "Mėsainiai",
+      "en": "Burgers",
+      "lv": "Hamburgeri"
+    },
+    "items": [
+      {
+        "title": {
+          "lt": "Vištienos mėsainis su fri bulvytėmis",
+          "en": "Chicken burger with french fires",
+          "lv": "Vistas burgeris ar frī kartupeļiem"
+        },
+        "note": {
+          "lt": "Grill vištiena, šoninė, svogūnai, sūris, pomidorai, agurkai, salotos",
+          "en": "Grilled chicken, bacon, onion, cheese, tomato, cucumber, salad",
+          "lv": "Grilēta vista, bekons, sīpoli, siers, tomāti, gurķi, salāti"
+        },
+        "price": 11
+      }
+    ]
+  },
+  "otherDishes": {
+    "title": {
+      "lt": "Kiti patiekalai",
+      "en": "Other dishes",
+      "lv": "Citi ēdieni"
+    },
+    "items": [
+      {
+        "title": {
+          "lt": "Karštos bulves su kastiniu",
+          "en": "Hot potatoes with local curd sauce",
+          "lv": "Karsti kartupeļi ar biezpiena mērci"
+        },
+        "price": 6
+      },
+      {
+        "title": {
+          "lt": "Silkė su karštomis bulvėmis",
+          "en": "Herring with hot potatoes",
+          "lv": "Siļķe ar karstiem kartupeļiem"
+        },
+        "price": 8
+      },
+      {
+        "title": {
+          "lt": "Gruzdintos bulvytes su pomidorų padažu",
+          "en": "French fries with tomato sauce",
+          "lv": "Frī kartupeļi ar tomātu mērci"
+        },
+        "price": 4.5
+      },
+      {
+        "title": {
+          "lt": "Gruzdintos bulvytes su vištienos \"popsiukais\"",
+          "en": "French fries with chicken nuggets",
+          "lv": "Frī kartupeļi ar vistas \"popsiukiem\""
+        },
+        "price": 7.5
+      },
+      {
+        "title": {
+          "lt": "Žemaičių blynai",
+          "en": "Meat stuffed potato pancakes",
+          "lv": "Žemaišu pankūkas"
+        },
+        "price": 7.5
+      },
+      {
+        "title": {
+          "lt": "Blyneliai su varške ir uogiene",
+          "en": "Crepes with curd and jam",
+          "lv": "Pankūkas ar biezpienu un ievārījumu"
+        },
+        "price": 7
+      },
+      {
+        "title": {
+          "lt": "Blyneliai su bananais ir šokoladu",
+          "en": "Crepes with banana and chocolate",
+          "lv": "Pankūkas ar banāniem un šokolādi"
+        },
+        "price": 7
+      }
+    ]
+  },
+  "hotDrinks": {
+    "title": {
+      "lt": "Karšti gerimai",
+      "en": "Hot drinks",
+      "lv": "Karstie dzērieni"
+    },
+    "items": [
+      {
+        "title": {
+          "lt": "Juoda kava",
+          "en": "Black coffee",
+          "lv": "Melna kafija"
+        },
+        "price": 2
+      },
+      {
+        "title": {
+          "lt": "Espresso",
+          "en": "Espresso",
+          "lv": "Espresso"
+        },
+        "price": 2
+      },
+      {
+        "title": {
+          "lt": "Kava su pienu",
+          "en": "Coffee with milk",
+          "lv": "Kafija ar pienu"
+        },
+        "price": 2.50
+      },
+      {
+        "title": {
+          "lt": "Latte",
+          "en": "Latte",
+          "lv": "Latte"
+        },
+        "price": 3
+      },
+      {
+        "title": {
+          "lt": "Kapučino",
+          "en": "Cappuccino",
+          "lv": "Kapučino"
+        },
+        "price": 3
+      },
+      {
+        "title": {
+          "lt": "Arbata",
+          "en": "Tea",
+          "lv": "Tēja"
+        },
+        "price": 2.00
+      }
+    ]
+  },
+  "coldDrinks": {
+    "title": {
+      "lt": "Gėrimai",
+      "en": "Beverages",
+      "lv": "Dzērieni"
+    },
+    "items": [
+      {
+        "title": {
+          "lt": "Sultys",
+          "en": "Juice",
+          "lv": "Sula"
+        },
+        "price": 1.5
+      },
+      {
+        "title": {
+          "lt": "Mineralinis vanduo",
+          "en": "Mineral water",
+          "lv": "Minerālais ūdens"
+        },
+        "note": {
+          "lt": "Gazuotas arba negazuotas",
+          "en": "Sparkling or still",
+          "lv": "Gāzēts vai negāzēts"
+        },
+        "price": 2
+      },
+      {
+        "title": {
+          "lt": "CocaCola, Sprite, Fanta",
+          "en": "CocaCola, Sprite, Fanta",
+          "lv": "CocaCola, Sprite, Fanta"
+        },
+        "price": 2.5
+      },
+      {
+        "title": {
+          "lt": "Energetinis gėrimas \"Red Bull\"",
+          "en": "Energy drink \"Red Bull\"",
+          "lv": "Enerģijas dzēriens \"Red Bull\""
+        },
+        "price": 3.50
+      },
+      {
+        "title": {
+          "lt": "Gira",
+          "en": "Kvass (traditional drink)",
+          "lv": "Gira"
+        },
+        "note": {
+          "lt": "0.3l arba 0.5l",
+          "en": "0.3l or 0.5l",
+          "lv": "0.3l vai 0.5l"
+        },
+        "smallPrice": 2.5,
+        "price": 3
+      },
+      {
+        "title": {
+          "lt": "Ąsotis vandens su vaisiais",
+          "en": "Jug of water with fruits",
+          "lv": "Ūdens ar augļiem"
+        },
+        "price": 2.00
+      },
+      {
+        "title": {
+          "lt": "Šalta kava su likeriu",
+          "en": "Cold coffee with liquor",
+          "lv": "Auksta kafija ar liķieri"
+        },
+        "price": 6
+      },
+      {
+        "title": {
+          "lt": "Alchoholinis kavos kokteilis",
+          "en": "Alcohol coffee cocktail",
+          "lv": "Alkoholiskais kafijas kokteilis"
+        },
+        "price": 6
+      }
+    ]
+  },
+  "alcoholCocktails": {
+    "title": {
+      "lt": "Alkoholiniai kokteiliai",
+      "en": "Alcohol cocktails",
+      "lv": "Alkoholiskie kokteiļi"
+    },
+    "items": [
+      {
+        "title": {
+          "lt": "Atsuktuvas",
+          "en": "Screwdriver",
+          "lv": "Atslēdznieks"
+        },
+        "price": 8
+      },
+      {
+        "title": {
+          "lt": "Mochito",
+          "en": "Mojito"
+        },
+        "price": 8
+      },
+      {
+        "title": {
+          "lt": "Sex on the beach",
+          "en": "Sex on the beach"
+        },
+        "price": 8
+      },
+      {
+        "title": {
+          "lt": "Aperol spritz",
+          "en": "Aperol spritz"
+        },
+        "price": 8
+      },
+      {
+        "title": {
+          "lt": "Paslaptis",
+          "en": "Secret",
+          "lv": "Noslēpums"
+        },
+        "price": 8
+      },
+      {
+        "title": {
+          "lt": "Vasara",
+          "en": "Summer",
+          "lv": "Vasara"
+        },
+        "price": 8
+      }
+    ]
+  },
+  "vodka": {
+    "title": {
+      "lt": "Degtinė",
+      "en": "Vodka",
+      "lv": "Degvīns"
+    },
+    "note": {
+      "lt": "50ml"
+    },
+    "items": [
+      {
+        "title": { "lt": "Auksinė Lietuviška" },
+        "price": 2.5
+      },
+      {
+        "title": { "lt": "Šimtmečio degtinė Stumbras" },
+        "price": 2.5
+      },
+      {
+        "title": { "lt": "Zelionaja Marka" },
+        "price": 2.5
+      }
+    ]
+  },
+  "brandy": {
+    "title": {
+      "lt": "Brendis",
+      "en": "Brandy",
+      "lv": "Brendijs"
+    },
+    "note": {
+      "lt": "50ml"
+    },
+    "items": [
+      {
+        "title": { "lt": "Gloria 5*" },
+        "price": 3
+      },
+      {
+        "title": { "lt": "Imperial XII" },
+        "price": 3
+      },
+      {
+        "title": { "lt": "Alita" },
+        "price": 3
+      },
+      {
+        "title": { "lt": "J.P Chenet HO" },
+        "price": 3
+      },
+      {
+        "title": { "lt": "Torres 5Y" },
+        "price": 3.00
+      },
+      {
+        "title": { "lt": "Torres 10Y" },
+        "price": 3.50
+      },
+      {
+        "title": { "lt": "Torres 15Y" },
+        "price": 6.00
+      },
+      {
+        "title": { "lt": "Torres 20Y" },
+        "price": 7.5
+      }
+    ]
+  },
+  "rum": {
+    "title": {
+      "lt": "Romas",
+      "en": "Rum",
+      "lv": "Rums"
+    },
+    "note": {
+      "lt": "50ml"
+    },
+    "items": [
+      {
+        "title": { "lt": "Bacardi Black" },
+        "price": 4
+      },
+      {
+        "title": { "lt": "Bacardi Superior Blanco" },
+        "price": 4
+      }
+    ]
+  },
+  "whiskey": {
+    "title": {
+      "lt": "Viskis",
+      "en": "Whiskey",
+      "lv": "Viskijs"
+    },
+    "note": {
+      "lt": "50ml"
+    },
+    "items": [
+      {
+        "title": { "lt": "Scottish Leader" },
+        "price": 3
+      },
+      {
+        "title": { "lt": "Ballantines" },
+        "price": 3
+      },            {
+        "title": { "lt": "Tullamore Dew" },
+        "price": 3
+      },
+      {
+        "title": { "lt": "Black Velvet" },
+        "price": 3
+      },
+      {
+        "title": { "lt": "Grant's" },
+        "price": 3
+      }
+    ]
+  },
+  "tequila": {
+    "title": {
+      "lt": "Tekila",
+      "en": "Tequila",
+      "lv": "Tekila"
+    },
+    "note": {
+      "lt": "50ml"
+    },
+    "items": [
+      {
+        "title": { "lt": "Sierra Tequila Silver"},
+        "price": 4
+      }
+    ]
+  },
+  "gin": {
+    "title": {
+      "lt": "Džinas",
+      "en": "Gin",
+      "lv": "Džins"
+    },
+    "note": {
+      "lt": "50ml"
+    },
+    "items": [
+      {
+        "title": { "lt": "Kensington Dry Gin" },
+        "price": 2.5
+      }
+    ]
+  },
+  "liquor": {
+    "title": {
+      "lt": "Likeris",
+      "en": "Liquor",
+      "lv": "Liķieris"
+    },
+    "note": {
+      "lt": "50ml"
+    },
+    "items": [
+      {
+        "title": { "lt": "Amaretto Venine Orginale" },
+        "price":3
+      },
+      {
+        "title": { "lt": "Keglevich Vodka" },
+        "price": 3
+      },
+      {
+        "title": {
+          "lt": "Poema kreminis su kava",
+          "en": "\"Poema\" creamy with coffe",
+          "lv": "\"Poema\" krēmveida ar kafiju"
+        },
+        "price": 3
+      },
+      {
+        "title": { "lt": "Vana Tallinn" },
+        "price": 3.00
+      },
+      {
+        "title": { "lt": "Jagermeister" },
+        "price": 4
+      }
+    ]
+  },
+  "bitter": {
+    "title": {
+      "lt": "Trauktinė",
+      "en": "Bitter",
+      "lv": "Bitters"
+    },
+    "note": {
+      "lt": "50ml"
+    },
+    "items": [
+      {
+        "title": { "lt": "Raudonos Devynerios" },
+        "price": 3
+      },
+      {
+        "title": { "lt": "Trejos Devynerios" },
+        "price": 3
+      },
+      {
+        "title": { "lt": "Žalios Devynerios" },
+        "price": 3
+      },
+      {
+        "title": { "lt": "Dainava" },
+        "price": 3
+      },
+      {
+        "title": { "lt": "Palanga" },
+        "price": 3
+      }
+    ]
+  },
+  "wine": {
+    "title": {
+      "lt": "Vynas",
+      "en": "Wine",
+      "lv": "Vīns"
+    },
+    "note": {
+      "lt": "100ml"
+    },
+    "items": [
+      {
+        "title": { "lt": "J.P Chenet Cabernet" },
+        "price": 3
+      },
+      {
+        "title": { "lt": "J.P Chenet Colombard" },
+        "price": 3
+      },
+      {
+        "title": { "lt": "J.P Chenet Medium Sweet White" },
+        "price": 3
+      },
+      {
+        "title": { "lt": "J.P Chenet Medium Sweet Rouge" },
+        "price": 3
+      },
+      {
+        "title": { "lt": "Voruta" },
+        "price":3
+      },
+      {
+        "title": { "lt": "Frontera Late Harvest" },
+        "price": 3
+      }
+    ]
+  },
+  "sparklingWine": {
+    "title": {
+      "lt": "Putojantis vynas",
+      "en": "Sparkling wine",
+      "lv": "Putojošais vīns"
+    },
+    "note": {
+      "lt": "100ml"
+    },
+    "items": [
+      {
+        "title": { "lt": "Alita" },
+        "price": 3
+      }
+    ]
+  },
+  "cognac": {
+    "title": {
+      "lt": "Konjakas",
+      "en": "Cognac",
+      "lv": "Konjaks"
+    },
+    "items": [
+      {
+        "title": { "lt": "Hennessy VS"},
+        "price": 7.00
+      },
+      {
+        "title": { "lt": "Courvoiseier VSOP" },
+        "price": 8.00
+      }
+    ]
+  },
+  "beer": {
+    "title": {
+      "lt": "Alus",
+      "en": "Beer",
+      "lv": "Alus"
+    },
+    "items": [
+      {
+        "title": {
+          "lt": "Švyturys Ekstra 5.2%"
+        },
+        "note": {
+          "lt": "pilstomas 0.33l/0.5l",
+          "en": "draft 0.33l/0.5l",
+          "lv": "Izlejamais 0.33l/0.5l"
+        },
+        "smallPrice": 3.50,
+        "price": 4.50
+      },
+      {
+        "title": {
+          "lt": "Švyturys Baltijos 5.8%"
+        },
+        "note": {
+          "lt": "but. 0.5l",
+          "en": "bottle 0.5l",
+          "lv": "pudelē 0.5l"
+        },
+        "price": 4.50
+      },
+      {
+        "title": {
+          "lt": "Grimbergen Dubbel 6.5%"
+        },
+        "note": {
+          "lt": "but. 0.25l/0.5l",
+          "en": "bottle 0.25l/0.5l",
+          "lv": "pudelē 0.25l/0.5l"
+        },
+        "smallPrice": 3.50,
+        "price": 6
+      },
+      {
+        "title": {
+          "lt": "Kronenbourg 1664 Blanc"
+        },
+        "note": {
+          "lt": "skard. 0.5l",
+          "en": "can 0.5l",
+          "lv": "skardē 0.5l"
+        },
+        "price": 4.50
+      },
+      {
+        "title": {
+          "lt": "Švyturys Extra 0.5%"
+        },
+        "note": {
+          "lt": "skard. 0.5l, nealkoholinis",
+          "en": "can 0.5l, non-alcoholic",
+          "lv": "skardē 0.5l, bezalkoholis"
+        },
+        "price": 4.0
+      },
+      {
+        "title": {
+          "lt": "Kronenbourg 1664 Blanc 0.5%"
+        },
+        "note": {
+          "lt": "but. 0.33l, nealkoholinis",
+          "en": "bottle 0.33l, non-alcoholic",
+          "lv": "pudelē 0.33l, bezalkoholis"
+        },
+        "price": 3.50
+      },
+      {
+        "title": {
+          "lt": "Somersby 4.5%"
+        },
+        "note": {
+          "lt": "skard. 0.5l",
+          "en": "can 0.5l",
+          "lv": "skardē 0.5l"
+        },
+        "price": 4.50
+      },
+      {
+        "title": {
+          "lt": "Somersby 0.5%"
+        },
+        "note": {
+          "lt": "skard. 0.5l, nealkoholinis",
+          "en": "can 0.5l, non-alcoholic",
+          "lv": "skardē 0.5l, bezalkoholis"
+        },
+        "price": 4.0
+      }
+    ]
+  }
 }
