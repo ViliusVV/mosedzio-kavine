@@ -59,19 +59,19 @@ export function MenuFront(props: {lang: Locale}) {
 export function MenuBack(props: {lang: Locale}) {
     return <MenuWrapper>
         <div className='flex gap-20 py-4 px-16'>
-            <div className='relative z-10 flex flex-col'>
+            <div className='relative z-10 flex flex-col w-[130mm]'>
                 <MenuGroup gap={-1} textSize="text-md" lang={props.lang} group={menuData['hotDrinks']}/>
                 <MenuGroup gap={-1} textSize="text-md" lang={props.lang} group={menuData['coldDrinks']}/>
                 <MenuGroup gap={-1} textSize="text-md" lang={props.lang} group={menuData['alcoholCocktails']}/>
             </div>
-            <div className='relative z-10 flex flex-col'>
+            <div className='relative z-10 flex flex-col w-[130mm]'>
                 <MenuGroup gap={-2} textSize="text-sm" lang={props.lang} group={menuData['vodka']}/>
                 <MenuGroup gap={-2} textSize="text-sm" lang={props.lang} group={menuData['brandy']}/>
                 <MenuGroup gap={-2} textSize="text-sm" lang={props.lang} group={menuData['whiskey']}/>
                 <MenuGroup gap={-2} textSize="text-sm" lang={props.lang} group={menuData['wine']}/>
                 <MenuGroup gap={-2} textSize="text-sm" lang={props.lang} group={menuData['sparklingWine']}/>
             </div>
-            <div className='relative z-10 flex flex-col'>
+            <div className='relative z-10 flex flex-col w-[100mm]'>
                 <MenuGroup gap={-2} textSize="text-sm" lang={props.lang} group={menuData['liquor']}/>
                 <MenuGroup gap={-2} textSize="text-sm" lang={props.lang} group={menuData['bitter']}/>
                 <MenuGroup gap={-2} textSize="text-sm" lang={props.lang} group={menuData['rum']}/>
@@ -128,10 +128,10 @@ function MenuGroup(props: {group: MenuGroup, lang: Locale, gap?: number, textSiz
         <div className="">
         {
             props.group.items.map((item, index) => {
-                return <div key={index} className="flex flex-col">
-                    <p className={`${textSize} text-bold italic p-0 ${offset}`}>{getLang(item.title)} { item.smallPrice && `${item.smallPrice}€/`}{item.price}€ </p>
+                return <div key={index} className="flex flex-col" >
+                    <p className={`${textSize} text-bold italic -mt-0.5 p-0 ${offset}`}>{getLang(item.title)} { item.smallPrice && `${item.smallPrice}€/`}{item.price}€ </p>
                     { item.note && 
-                        <p className="text-xs font-italic mt-[-6px]">({getLang(item.note)})</p>
+                        <p className="text-xs font-italic -mt-1.5">({getLang(item.note)})</p>
                     }
                 </div>
             })
