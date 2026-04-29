@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist, Geist_Mono, Playfair_Display, EB_Garamond } from "next/font/google";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -12,28 +12,38 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-// allow zooming out
+const playfair = Playfair_Display({
+  variable: "--font-display",
+  subsets: ["latin", "latin-ext"],
+  weight: ["500", "600", "700"],
+});
+
+const garamond = EB_Garamond({
+  variable: "--font-garamond",
+  subsets: ["latin", "latin-ext"],
+  style: ["normal", "italic"],
+  weight: ["400", "500", "600"],
+});
+
 export const metadata: Metadata = {
   title: "Mosėdžio kavinė",
   description: "Mosėdžio kavinė. Grill patikalai, pietūs, maitas išsinešimui.",
-  // viewport: "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes",
   creator: "Vilius Valinskis",
-  keywords: ["Mosėdžio kavinė", "Mosėdis", "kavinė", "restoranas", "maistas", "kavinė mosėdyje", "kavinė skuodė", "maistas išsinešimui", "maistas į namus", "mosedžio kavinė", "mosedžio kavinė", "mosedžio restoranas", "restaurant in mosėdis", "restaurant"],
+  keywords: ["Mosėdžio kavinė", "Mosėdis", "kavinė", "restoranas", "maistas", "kavinė mosėdyje", "kavinė skuodė", "maistas išsinešimui", "maitas į namus", "mosedžio kavinė", "mosedžio kavinė", "mosedžio restoranas", "restaurant in mosėdis", "restaurant"],
 };
 
 export async function generateStaticParams() {
-  return [{ lang: 'lt' }, { lang: 'en' }, { lang: 'lv' }]
+  return [{ lang: "lt" }, { lang: "en" }, { lang: "lv" }];
 }
 
 export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
-  
 }>) {
   return (
     <html lang="lt">
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+      <body className={`${geistSans.variable} ${geistMono.variable} ${playfair.variable} ${garamond.variable} antialiased`}>
         {children}
       </body>
     </html>

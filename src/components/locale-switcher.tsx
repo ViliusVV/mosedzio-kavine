@@ -4,24 +4,36 @@ import { usePathname } from "next/navigation";
 import Link from "next/link";
 import { i18n, Locale } from "@/i18n-config";
 
+export default function LocaleSwitcher(props: { linkClass: string; accentClass: string }) {
+  const pathname = usePathname() ?? "/";
+  const currentLocale = pathname.split("/")[1] as Locale | undefined;
 
-export default function LocaleSwitcher() {
-  const pathname = usePathname();
   const redirectedPathname = (locale: Locale) => {
-    if (!pathname) return "/";
     const segments = pathname.split("/");
+    if (segments.length < 2 || segments[1] === "") {
+      return `/${locale}`;
+    }
     segments[1] = locale;
     return segments.join("/");
   };
 
-  // swicher at the end of the row
   return (
-    <div className="flex items-center gap-2 justify-end">
-        {i18n.locales.map((locale) => {
-          return <div className="hover:underline hover:underline-offset-4" key={locale}>
-              <Link href={redirectedPathname(locale)}>{locale.toUpperCase()}</Link>
-          </div>
-        })}
+    <div className="flex items-center gap-2 text-[10px] sm:text-xs tracking-[0.18em] uppercase">
+      {i18n.locales.map((locale, i) => {
+        const active = locale === currentLocale;
+        return (
+          <span key={locale} className="flex items-center gap-2">
+            <Link
+              href={redirectedPathname(locale)}
+              className={`transition ${active ? props.accentClass : props.linkClass}`}
+              aria-current={active ? "true" : undefined}
+            >
+              {locale.toUpperCase()}
+            </Link>
+            {i < i18n.locales.length - 1 && <span className="opacity-30">·</span>}
+          </span>
+        );
+      })}
     </div>
   );
 }
