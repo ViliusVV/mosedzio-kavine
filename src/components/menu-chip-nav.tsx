@@ -4,13 +4,23 @@ import { useEffect, useRef, useState } from "react";
 
 export type ChipDef = { id: string; label: string };
 
-const STICKY_OFFSET_PX = 52; // height of the chip bar itself; topbar is not sticky
+const CHIP_BAR_HEIGHT_PX = 52;
 
-export default function MenuChipNav(props: { chips: ChipDef[] }) {
+export default function MenuChipNav(props: { chips: ChipDef[]; stickyTopPx?: number }) {
+  const stickyTopPx = props.stickyTopPx ?? 0;
+  const scrollOffsetPx = stickyTopPx + CHIP_BAR_HEIGHT_PX;
+
   const [activeId, setActiveId] = useState<string>(props.chips[0]?.id ?? "");
   const containerRef = useRef<HTMLDivElement>(null);
   const chipRefs = useRef<Record<string, HTMLAnchorElement | null>>({});
   const scrollingToId = useRef<string | null>(null);
+
+  useEffect(() => {
+    setActiveId((current) => {
+      if (props.chips.some((c) => c.id === current)) return current;
+      return props.chips[0]?.id ?? "";
+    });
+  }, [props.chips]);
 
   useEffect(() => {
     const sections = props.chips
@@ -39,14 +49,14 @@ export default function MenuChipNav(props: { chips: ChipDef[] }) {
         setActiveId(visibleId);
       },
       {
-        rootMargin: `-${STICKY_OFFSET_PX + 8}px 0px -55% 0px`,
+        rootMargin: `-${scrollOffsetPx + 8}px 0px -55% 0px`,
         threshold: 0,
       },
     );
 
     sections.forEach((s) => observer.observe(s));
     return () => observer.disconnect();
-  }, [props.chips]);
+  }, [props.chips, scrollOffsetPx]);
 
   useEffect(() => {
     const chip = chipRefs.current[activeId];
@@ -67,7 +77,7 @@ export default function MenuChipNav(props: { chips: ChipDef[] }) {
     const target = document.getElementById(id);
     if (!target) return;
     e.preventDefault();
-    const top = target.getBoundingClientRect().top + window.scrollY - STICKY_OFFSET_PX;
+    const top = target.getBoundingClientRect().top + window.scrollY - scrollOffsetPx;
     const reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
     scrollingToId.current = id;
     window.scrollTo({ top, behavior: reduced ? "auto" : "smooth" });
@@ -78,8 +88,8 @@ export default function MenuChipNav(props: { chips: ChipDef[] }) {
   return (
     <div
       ref={containerRef}
-      className="sticky top-0 z-20 -mx-4 sm:-mx-8 px-4 sm:px-8 py-3 flex gap-2 overflow-x-auto bg-[#1d1814]/95 backdrop-blur border-b border-[#efe5d3]/10 scrollbar-none"
-      style={{ scrollbarWidth: "none" }}
+      className="sticky z-20 -mx-4 sm:-mx-8 px-4 sm:px-8 py-3 flex gap-2 overflow-x-auto bg-[#1d1814]/95 backdrop-blur border-b border-[#efe5d3]/10 scrollbar-none"
+      style={{ top: stickyTopPx, scrollbarWidth: "none" }}
     >
       {props.chips.map((c) => {
         const active = c.id === activeId;

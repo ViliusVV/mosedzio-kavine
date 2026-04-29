@@ -1,7 +1,8 @@
 import data from "@/data/menu.json";
 import { Locale } from "@/i18n-config";
-import { T } from "@/utils/lang";
-import MenuChipNav, { ChipDef } from "./menu-chip-nav";
+import { StringKey, T } from "@/utils/lang";
+import MenuTabs, { TabDef } from "./menu-tabs";
+import { ChipDef } from "./menu-chip-nav";
 
 type LocalisedString = { lt: string; en: string; lv?: string };
 
@@ -20,6 +21,24 @@ type MenuGroup = {
 
 const menuData = data as unknown as Record<string, MenuGroup>;
 
+const TAB_CONFIG: { id: string; labelKey: StringKey; keys: string[] }[] = [
+  {
+    id: "patiekalai",
+    labelKey: "tab.food",
+    keys: ["soups", "snacks", "salads", "hotDishes", "burgers", "otherDishes", "desserts"],
+  },
+  {
+    id: "gerimai",
+    labelKey: "tab.drinks",
+    keys: ["hotDrinks", "coldDrinks", "alcoholCocktails", "wine", "sparklingWine", "beer"],
+  },
+  {
+    id: "stiprieji",
+    labelKey: "tab.spirits",
+    keys: ["vodka", "brandy", "whiskey", "rum", "tequila", "gin", "liquor", "bitter", "cognac"],
+  },
+];
+
 function pickLang(s: LocalisedString | undefined, lang: Locale): string {
   if (!s) return "";
   return (s as Record<string, string | undefined>)[lang] ?? s.en ?? s.lt ?? "";
@@ -27,32 +46,38 @@ function pickLang(s: LocalisedString | undefined, lang: Locale): string {
 
 export default function MenuWeb(props: { lang: Locale }) {
   const lang = props.lang;
-  const groups = Object.entries(menuData);
 
-  const chips: ChipDef[] = groups.map(([key, group]) => ({
-    id: key,
-    label: pickLang(group.title, lang),
+  const tabs: TabDef[] = TAB_CONFIG.map((tab) => ({
+    id: tab.id,
+    label: T(lang, tab.labelKey),
+    chips: tab.keys
+      .filter((k) => menuData[k])
+      .map<ChipDef>((k) => ({
+        id: k,
+        label: pickLang(menuData[k].title, lang),
+      })),
   }));
+
+  const panels: Record<string, React.ReactNode> = Object.fromEntries(
+    TAB_CONFIG.map((tab) => [
+      tab.id,
+      tab.keys
+        .filter((k) => menuData[k])
+        .map((k) => <Section key={k} id={k} group={menuData[k]} lang={lang} />),
+    ]),
+  );
 
   return (
     <div className="w-full max-w-3xl mx-auto px-4 sm:px-8">
       <header className="pt-10 pb-6">
         <p className="text-[10px] tracking-[0.25em] uppercase text-[#d8a657]">Mosėdis · Žemaitija</p>
-        <h1 className="font-[family-name:var(--font-display)] text-4xl sm:text-5xl mt-2 text-[#efe5d3]">Mosėdžio kavinė</h1>
+        <h1 className="font-[family-name:var(--font-display)] text-4xl sm:text-5xl mt-2 text-[#efe5d3]">
+          Mosėdžio kavinė
+        </h1>
         <p className="text-sm sm:text-base text-[#efe5d3]/70 mt-2">{T(lang, "tagline.short")}</p>
       </header>
 
-      <MenuChipNav chips={chips} />
-
-      <div className="mt-2 mb-4 px-3 py-2 border-l-2 border-[#d8a657] bg-[#d8a657]/[0.06] text-sm text-[#efe5d3]/85">
-        {T(lang, "alergens.notice")}
-      </div>
-
-      <div className="flex flex-col gap-12 pt-6 pb-24">
-        {groups.map(([key, group]) => (
-          <Section key={key} id={key} group={group} lang={lang} />
-        ))}
-      </div>
+      <MenuTabs tabs={tabs} panels={panels} allergenNotice={T(lang, "alergens.notice")} />
     </div>
   );
 }
@@ -62,7 +87,7 @@ function Section(props: { id: string; group: MenuGroup; lang: Locale }) {
   const subtitle = group.note ? pickLang(group.note, lang) : null;
 
   return (
-    <section id={props.id} className="scroll-mt-24">
+    <section id={props.id} className="scroll-mt-28">
       <h2 className="font-[family-name:var(--font-display)] text-2xl sm:text-3xl text-[#efe5d3]">
         {pickLang(group.title, lang)}
       </h2>

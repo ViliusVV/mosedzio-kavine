@@ -13,7 +13,10 @@
         "saturday": "Saturday",
         "sunday": "Sunday",
         "alergens.notice": "Ask your waiter about allergens",
-        "tagline.short": "Žemaitiški patiekalai, grilis ir pietūs."
+        "tagline.short": "Žemaitiški patiekalai, grilis ir pietūs.",
+        "tab.food": "Food",
+        "tab.drinks": "Drinks",
+        "tab.spirits": "Spirits"
     },
     "lt": {
         "menu": "Meniu",
@@ -29,7 +32,10 @@
         "saturday": "Šeštadienis",
         "sunday": "Sekmadienis",
         "alergens.notice": "Dėl alergenų kreiptis į padavėją",
-        "tagline.short": "Žemaitiški patiekalai, grilis ir pietūs."
+        "tagline.short": "Žemaitiški patiekalai, grilis ir pietūs.",
+        "tab.food": "Patiekalai",
+        "tab.drinks": "Gėrimai",
+        "tab.spirits": "Stiprieji"
     },
     "lv": {
         "menu": "Ēdienkarte",
@@ -45,7 +51,10 @@
         "saturday": "Sestdiena",
         "sunday": "Svētdiena",
         "alergens.notice": "Par alerģijām jautājiet viesmīlim",
-        "tagline.short": "Žemaitiešu ēdieni, grils un pusdienas."
+        "tagline.short": "Žemaitiešu ēdieni, grils un pusdienas.",
+        "tab.food": "Ēdieni",
+        "tab.drinks": "Dzērieni",
+        "tab.spirits": "Stiprie"
     },
     "de": {
         "menu": "Speisekarte",
@@ -61,7 +70,10 @@
         "saturday": "Samstag",
         "sunday": "Sonntag",
         "alergens.notice": "Fragen Sie Ihren Kellner nach Allergenen",
-        "tagline.short": "Žemaitische Gerichte, Grill und Mittagessen."
+        "tagline.short": "Žemaitische Gerichte, Grill und Mittagessen.",
+        "tab.food": "Speisen",
+        "tab.drinks": "Getränke",
+        "tab.spirits": "Spirituosen"
     },
     "ru": {
         "menu": "Меню",
@@ -77,6 +89,9 @@
         "saturday": "Суббота",
         "sunday": "Воскресенье",
         "alergens.notice": "По вопросам аллергенов обратитесь к официанту",
-        "tagline.short": "Жемайтийские блюда, гриль и обеды."
+        "tagline.short": "Жемайтийские блюда, гриль и обеды.",
+        "tab.food": "Блюда",
+        "tab.drinks": "Напитки",
+        "tab.spirits": "Крепкие напитки"
     }
 }
