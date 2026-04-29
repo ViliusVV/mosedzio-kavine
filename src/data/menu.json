@@ -22,19 +22,24 @@
       },
       {
         "title": {
-          "lt": "Ciubulynė",
+          "lt": "Cibulynė",
           "en": "Cold onion soup",
           "lv": "Sīpolu zupa"
+        },
+        "note": {
+            "lt": "Cibulynė, karštos bulvės su spirgine",
+            "en": "Cold onion soup, hot potatoes with Samogitian hemp seed spread",
+            "lv": "Sīpolu zupa, karsti kartupeļi ar žemaitišku kaņepju sēklu uzkandīte"
         },
         "price": 4.5
       },
       {
         "title": {
-          "lt": "Žemaitiškas užkandis",
-          "en": "Local cold soup with snacks",
-          "lv": "Žemaišu aukstā zupa"
+          "lt": "Šaltibarščiai",
+          "en": "Cold beetroot soup",
+          "lv": "Aukstā biešu zupa"
         },
-        "price": 10
+        "price": 4.5
       },
       {
         "title": {
@@ -43,6 +48,19 @@
           "lv": "Čili zupa"
         },
         "price": 6
+      },
+      {
+        "title": {
+          "lt": "Žemaitiškas užkandis ",
+          "en": "Local cold soup with snacks",
+          "lv": "Žemaišu aukstā zupa"
+        },
+        "note": {
+          "lt": "Cibulynė, silkė, kąstinys, karštos bulvės su spirgine",
+          "en": "Cold onion soup, herring, beaten cream, hot potatoes with Samogitian hemp seed spread",
+          "lv": "Sīpolu zupa, siļķe, putukrējums, karsti kartupeļi ar žemaitišku kaņepju sēklu uzkandīte"
+        },
+        "price": 11
       }
     ]
   },
