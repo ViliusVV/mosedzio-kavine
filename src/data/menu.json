@@ -94,26 +94,25 @@
           "lv": "Uzkodu komplekts"
         },
         "note": {
-          "lt": "Naminiai bulvių traškučiai, sūris, kepta duona",
-          "en": "Homemade potato chips, cheese, fried bread",
-          "lv": "Pašizveidoti kartupeļu čipsi, siers, cepta maize"
-
+          "lt": "Naminiai bulvių traškučiai, svogūnų žiedai, kepta duona",
+          "en": "Homemade potato chips, onion rings, fried bread",
+          "lv": "Pašizveidoti kartupeļu čipsi, sīpolu gredzeni, cepta maize"
         },
-        "price": 9.5
+        "price": 10
       },
       {
         "title": {
-          "lt": "Užkandžių rinkinys \"Mega\"",
-          "en": "Snack assortment \"Mega\"",
-          "lv": "Uzkodu komplekts \"Mega\""
+          "lt": "Karštų užkandžių rinkinys",
+          "en": "Hot snack assortment",
+          "lv": "Karstu uzkodu komplekts"
         },
         "note": {
-          "lt": "Sūrio spurgos, krevetės, naminiai bulvių traškučiai, alyvuogės",
-          "en": "Cheese balls, shrimps, homemade potato chips, olives",
-          "lv": "Siera bumbiņas, garneles, pašizveidoti kartupeļu čipsi, olīvas"
+          "lt": "Bulvių grotelės, svogūnų žiedai, vištienos juostelės",
+          "en": "Fried potato grids, onion rings, chicken strips",
+          "lv": "Kartupeļu režģi, sīpolu gredzeni, vistas strēmelītes"
 
         },
-        "price": 19
+        "price": 11
       },
       {
         "title": {
@@ -207,11 +206,11 @@
       },
       {
         "title": {
-          "lt": "Ledai su šviežiomis uogomis",
-          "en": "Ice-cream with fresh berries",
-          "lv": "Saldējums ar ogām"
+          "lt": "Vaisių skonio ledai su uogiene",
+          "en": "Fruit flavored ice-cream with jam",
+          "lv": "Augļu garšas saldējums ar ievārījumu"
         },
-        "price": 4.00
+        "price": 4.5
       },
       {
         "title": {
@@ -231,6 +230,19 @@
           "lt": "\"Lava\" šokoladinis pyragaitis",
           "en": "Lava cake",
           "lv": "\"Lava\" šokolādes kūka"
+        },
+        "price": 4.5
+      },
+      {
+        "title": {
+          "lt": "Firminis pyragas",
+          "en": "Signature cake",
+          "lv": "Firminais kūka"
+        },
+        "notes": {
+          "lt": "Varškės ir obuolių pyragas",
+          "en": "Curd and apple cake",
+          "lv": "Biezpiena un ābolu kūka"
         },
         "price": 4.5
       }
@@ -306,8 +318,8 @@
           "en": "Pork chop with/without cheese topping",
           "lv": "Cūkas karbonāde ar sieru"
         },
-        "smallPrice": 11,
-        "price": 11.5
+        "smallPrice": 11.5,
+        "price": 12
       },
       {
         "title": {
@@ -316,7 +328,7 @@
           "lv": "Vistas fileja ar sieru"
         },
         "smallPrice": 11.5,
-        "price": 11
+        "price": 12
       },
       {
         "title": {
@@ -387,7 +399,7 @@
           "en": "French fries with chicken nuggets",
           "lv": "Frī kartupeļi ar vistas \"popsiukiem\""
         },
-        "price": 7.5
+        "price": 8
       },
       {
         "title": {
@@ -395,7 +407,7 @@
           "en": "Meat stuffed potato pancakes",
           "lv": "Žemaišu pankūkas"
         },
-        "price": 7.5
+        "price": 8
       },
       {
         "title": {
