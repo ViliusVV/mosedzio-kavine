@@ -28,8 +28,8 @@ const menuData: MenuType = data as unknown as MenuType;
 
 export function MenuFront(props: {lang: Locale}) {
     return <MenuWrapper>
-        <div className='flex gap-36 py-4 px-16'>
-            <div className='relative z-10 flex flex-col'>
+        <div className='flex gap-12 py-2 px-16'>
+            <div className='relative z-10 flex flex-col w-[150mm]'>
                 <MenuGroup gap={-1} textSize="text-md" lang={props.lang} group={menuData['soups']}/>
                 <MenuGroup gap={-1} textSize="text-md" lang={props.lang} group={menuData['snacks']}/>
                 <MenuGroup gap={-1} textSize="text-md" lang={props.lang} group={menuData['salads']}/>
@@ -38,7 +38,7 @@ export function MenuFront(props: {lang: Locale}) {
 
                 <p className='text-orange-500 italic'>! {T(props.lang, 'alergens.notice')}</p> 
             </div>
-            <div className='relative z-10 flex flex-col'>
+            <div className='relative z-10 flex flex-col w-[130mm]'>
                 <MenuGroup lang={props.lang} group={menuData['hotDishes']}/>
                 <MenuGroup lang={props.lang} group={menuData['otherDishes']}/>
             </div>
