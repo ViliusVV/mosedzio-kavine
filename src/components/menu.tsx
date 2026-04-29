@@ -5,7 +5,10 @@ import {  T } from '@/utils/lang';
 
 type LocalisedString = {
     lt: string,
-    en: string,
+    en?: string,
+    lv?: string,
+    de?: string,
+    ru?: string,
 }
 
 type MenuGroup = {

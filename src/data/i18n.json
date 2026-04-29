@@ -12,7 +12,8 @@
         "friday": "Friday",
         "saturday": "Saturday",
         "sunday": "Sunday",
-        "alergens.notice": "Ask your waiter about allergens"
+        "alergens.notice": "Ask your waiter about allergens",
+        "tagline.short": "Žemaitiški patiekalai, grilis ir pietūs."
     },
     "lt": {
         "menu": "Meniu",
@@ -27,7 +28,8 @@
         "friday": "Penktadienis",
         "saturday": "Šeštadienis",
         "sunday": "Sekmadienis",
-        "alergens.notice": "Dėl alergenų kreiptis į padavėją"
+        "alergens.notice": "Dėl alergenų kreiptis į padavėją",
+        "tagline.short": "Žemaitiški patiekalai, grilis ir pietūs."
     },
     "lv": {
         "menu": "Ēdienkarte",
@@ -42,6 +44,39 @@
         "friday": "Piektdiena",
         "saturday": "Sestdiena",
         "sunday": "Svētdiena",
-        "alergens.notice": "Par alerģijām jautājiet viesmīlim"
+        "alergens.notice": "Par alerģijām jautājiet viesmīlim",
+        "tagline.short": "Žemaitiešu ēdieni, grils un pusdienas."
+    },
+    "de": {
+        "menu": "Speisekarte",
+        "phone": "Tel.",
+        "address": "Adresse",
+        "contacts": "Kontakte",
+        "working.hours": "Öffnungszeiten",
+        "bar": "Bar",
+        "kitchen": "Küche",
+        "monday": "Montag",
+        "thursday": "Donnerstag",
+        "friday": "Freitag",
+        "saturday": "Samstag",
+        "sunday": "Sonntag",
+        "alergens.notice": "Fragen Sie Ihren Kellner nach Allergenen",
+        "tagline.short": "Žemaitische Gerichte, Grill und Mittagessen."
+    },
+    "ru": {
+        "menu": "Меню",
+        "phone": "Тел.",
+        "address": "Адрес",
+        "contacts": "Контакты",
+        "working.hours": "Часы работы",
+        "bar": "Бар",
+        "kitchen": "Кухня",
+        "monday": "Понедельник",
+        "thursday": "Четверг",
+        "friday": "Пятница",
+        "saturday": "Суббота",
+        "sunday": "Воскресенье",
+        "alergens.notice": "По вопросам аллергенов обратитесь к официанту",
+        "tagline.short": "Жемайтийские блюда, гриль и обеды."
     }
 }

@@ -2,15 +2,11 @@ import data from "@/data/i18n.json"
 import { Locale } from "@/i18n-config"
 
 type LangData = {
-    lt: {
-        [key: string]: string
-    },
-    en: {
-        [key: string]: string
-    },
-    lv: {
-        [key: string]: string
-    }
+    lt: { [key: string]: string },
+    en: { [key: string]: string },
+    lv: { [key: string]: string },
+    de: { [key: string]: string },
+    ru: { [key: string]: string },
 }
 
 const langData = data as unknown as LangData
