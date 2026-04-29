@@ -24,7 +24,7 @@ function getLocale(request: NextRequest): string {
   return locale ?? i18n.defaultLocale;
 }
 
-export function middleware(request: NextRequest) {
+export function proxy(request: NextRequest) {
   const pathname = request.nextUrl.pathname;
   console.log("pathname", pathname);
 

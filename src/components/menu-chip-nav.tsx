@@ -11,16 +11,20 @@ export default function MenuChipNav(props: { chips: ChipDef[]; stickyTopPx?: num
   const scrollOffsetPx = stickyTopPx + CHIP_BAR_HEIGHT_PX;
 
   const [activeId, setActiveId] = useState<string>(props.chips[0]?.id ?? "");
+  const [prevChips, setPrevChips] = useState(props.chips);
   const containerRef = useRef<HTMLDivElement>(null);
   const chipRefs = useRef<Record<string, HTMLAnchorElement | null>>({});
   const scrollingToId = useRef<string | null>(null);
 
-  useEffect(() => {
-    setActiveId((current) => {
-      if (props.chips.some((c) => c.id === current)) return current;
-      return props.chips[0]?.id ?? "";
-    });
-  }, [props.chips]);
+  // When the chips list changes (e.g. after a tab switch), reset the active
+  // chip if the previous one is no longer in the new set. Using the
+  // adjust-state-during-render pattern instead of an effect.
+  if (prevChips !== props.chips) {
+    setPrevChips(props.chips);
+    if (!props.chips.some((c) => c.id === activeId)) {
+      setActiveId(props.chips[0]?.id ?? "");
+    }
+  }
 
   useEffect(() => {
     const sections = props.chips

@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import MenuChipNav, { ChipDef } from "./menu-chip-nav";
 
 export type TabDef = {
@@ -17,18 +17,20 @@ export default function MenuTabs(props: {
   allergenNotice: string;
 }) {
   const [activeTabId, setActiveTabId] = useState<string>(props.tabs[0]?.id ?? "");
+  const [hashApplied, setHashApplied] = useState(false);
 
-  // On mount, if URL hash points to a section in some other tab, switch to that tab.
-  useEffect(() => {
+  // On first client render, if URL hash points to a section in some other tab,
+  // switch to that tab. Adjust-state-during-render pattern (React 19 friendly).
+  if (!hashApplied && typeof window !== "undefined") {
+    setHashApplied(true);
     const hash = window.location.hash.slice(1);
-    if (!hash) return;
-    const owner = props.tabs.find((t) => t.chips.some((c) => c.id === hash));
-    if (owner && owner.id !== activeTabId) {
-      setActiveTabId(owner.id);
+    if (hash) {
+      const owner = props.tabs.find((t) => t.chips.some((c) => c.id === hash));
+      if (owner && owner.id !== activeTabId) {
+        setActiveTabId(owner.id);
+      }
     }
-    // run once on mount
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  }
 
   const activeTab = props.tabs.find((t) => t.id === activeTabId) ?? props.tabs[0];
 

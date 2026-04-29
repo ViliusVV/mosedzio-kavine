@@ -25,9 +25,9 @@ Marketing/info site for **Mosėdžio kavinė** (a café in Mosėdis, Lithuania),
 - Translations are stored in `src/data/i18n.json` (one object per locale). Use `T(lang, key)` from `src/utils/lang.ts` — it falls back through `lt` then the raw key. `StringKey` is the union of keys and is the typed contract for translation calls.
 - Menu items in `src/data/menu.json` carry their own `{lt, en}` `LocalisedString` shape (no `lv`); `MenuGroup` in `src/components/menu.tsx` falls back to `en` then `lt` when the active locale is missing.
 
-### Middleware (`src/middleware.ts`)
+### Proxy (`src/proxy.ts`)
 
-The middleware does **not** handle locale prefixing for normal pages. It only intercepts `/qr-redirect` and redirects the visitor to `/<negotiated-locale>` based on `Accept-Language`. The matcher excludes `api`, `_next/static`, `_next/image`, and `favicon.ico`. Don't extend this to rewrite all routes — pages already cover the per-locale paths via `[lang]`.
+Next 16's proxy file (formerly "middleware" — the file convention was renamed). The proxy does **not** handle locale prefixing for normal pages. It only intercepts `/qr-redirect` and redirects the visitor to `/<negotiated-locale>` based on `Accept-Language`. The matcher excludes `api`, `_next/static`, `_next/image`, and `favicon.ico`. Don't extend this to rewrite all routes — pages already cover the per-locale paths via `[lang]`.
 
 ### Pages
 
