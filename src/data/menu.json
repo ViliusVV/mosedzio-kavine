@@ -36,7 +36,7 @@
         "note": {
             "lt": "Cibulynė, karštos bulvės su spirgine",
             "en": "Cold onion soup, hot potatoes with Samogitian hemp seed spread",
-            "lv": "Sīpolu zupa, karsti kartupeļi ar žemaitišku kaņepju sēklu uzkandīte",
+            "lv": "Sīpolu zupa, karsti kartupeļi ar žemaišu kaņepju sēklu smēriņu",
             "ru": "Луковый суп, горячий картофель с жемайтийской конопляной пастой",
             "de": "Zwiebelsuppe, heiße Kartoffeln mit samogitischem Hanfsamen-Aufstrich"
         },
@@ -138,7 +138,7 @@
         "note": {
           "lt": "Bulvių grotelės, svogūnų žiedai, vištienos juostelės",
           "en": "Criss-cut fries, onion rings, chicken strips",
-          "lv": "Kartupeļu režģi, sīpolu gredzeni, vistas strēmelītes",
+          "lv": "Rievotie frī kartupeļi, sīpolu gredzeni, vistas strēmelītes",
           "ru": "Картофель фри решёткой, луковые кольца, куриные полоски",
           "de": "Kartoffelgitter, Zwiebelringe, Hähnchenstreifen"
         },
@@ -169,8 +169,8 @@
           "lt": "Karštų sūrio spurgyčių rinkinys",
           "en": "Fried cheese ball assortment",
           "lv": "Ceptu siera bumbiņu komplekts",
-          "ru": "Жареные шарики из сыра",
-          "de": "Gebratene Käsebällchen"
+          "ru": "Ассорти жареных сырных шариков",
+          "de": "Gebratene Käsebällchen-Auswahl"
         },
         "price": 7
       },
@@ -297,11 +297,11 @@
         "title": {
           "lt": "Firminis pyragas",
           "en": "Signature cake",
-           "lv": "Firmas kūka",
+          "lv": "Firmas kūka",
           "ru": "Фирменный торт",
           "de": "Signaturtorte"
         },
-        "notes": {
+        "note": {
           "lt": "Varškės ir obuolių pyragas",
           "en": "Curd and apple cake",
           "lv": "Biezpiena un ābolu kūka",
@@ -346,7 +346,7 @@
         "title": {
           "lt": "Grill vištienos kepsnys",
           "en": "Grilled chicken steak",
-          "lv": "Grilēta vistas fileja",
+          "lv": "Grilēts vistas steiks",
           "ru": "Куриный стейк гриль",
           "de": "Gegrilltes Hähnchensteak"
         },
@@ -356,7 +356,7 @@
         "title": {
           "lt": "Grill lašiša",
           "en": "Grilled salmon steak",
-          "lv": "Grilēta laša fileja",
+          "lv": "Grilēts laša steiks",
           "ru": "Стейк из лосося гриль",
           "de": "Gegrilltes Lachssteak"
         },
@@ -380,10 +380,10 @@
           "ru": "Гриль-сет на двоих",
           "de": "Grill-Set für zwei"
         },
-        "notes": {
+        "note": {
           "lt": "Grill sprandinė, grill vištiena, grill šonkauliai",
           "en": "Grilled pork neck, grilled chicken steak, grilled pork ribs",
-          "lv": "Grilēta cūkas kakla gaļa, grilēta vistas fileja, grilēti cūkas ribas",
+          "lv": "Grilēta cūkas kakla gaļa, grilēts vistas steiks, grilētas cūkgaļas ribiņas",
           "ru": "Свиная шея гриль, куриный стейк гриль, свиные рёбра гриль",
           "de": "Gegrillter Schweinenacken, gegrilltes Hähnchensteak, gegrillte Schweinerippchen"
         },
@@ -473,7 +473,7 @@
       {
         "title": {
           "lt": "Karštos bulvės su kąstiniu",
-           "en": "Hot potatoes with Samogitian curd spread",
+          "en": "Hot potatoes with Samogitian curd spread",
           "lv": "Karsti kartupeļi ar biezpiena mērci",
           "ru": "Горячий картофель с местным творожным соусом",
           "de": "Heiße Kartoffeln mit lokaler Quarksauce"
@@ -710,7 +710,7 @@
       {
         "title": {
           "lt": "Alkoholinis kavos kokteilis",
-           "en": "Alcoholic coffee cocktail",
+          "en": "Alcoholic coffee drink",
           "lv": "Alkoholiskais kafijas kokteilis",
           "ru": "Алкогольный кофейный коктейль",
           "de": "Alkoholischer Kaffeecocktail"
@@ -722,7 +722,7 @@
   "alcoholCocktails": {
     "title": {
       "lt": "Alkoholiniai kokteiliai",
-       "en": "Alcoholic cocktails",
+      "en": "Alcoholic cocktails",
       "lv": "Alkoholiskie kokteiļi",
       "ru": "Алкогольные коктейли",
       "de": "Alkoholische Cocktails"
@@ -732,7 +732,7 @@
         "title": {
           "lt": "Atsuktuvas",
           "en": "Screwdriver",
-           "lv": "Screwdriver",
+          "lv": "Screwdriver",
           "ru": "Отвёртка",
           "de": "Screwdriver"
         },
@@ -900,7 +900,8 @@
       {
         "title": { "lt": "Ballantines" },
         "price": 3
-      },            {
+      },
+      {
         "title": { "lt": "Tullamore Dew" },
         "price": 3
       },
