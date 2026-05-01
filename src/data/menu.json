@@ -64,7 +64,7 @@
       },
       {
         "title": {
-          "lt": "Žemaitiškas užkandis ",
+          "lt": "Žemaitiškas užkandis",
           "en": "Local cold soup with snacks",
           "lv": "Žemaišu aukstā zupa",
           "ru": "Жемайтийская холодная закуска с супом",
@@ -172,7 +172,7 @@
           "ru": "Жареные шарики из сыра",
           "de": "Gebratene Käsebällchen"
         },
-        "price": 7.5
+        "price": 7
       },
       {
         "title": {
@@ -207,7 +207,7 @@
     "items": [
       {
         "title": {
-          "lt": "Burokėlių salots su fetos sūrio",
+          "lt": "Burokėlių salotos su fetos sūriu",
           "en": "Beet salad with feta cheese",
           "lv": "Bietes ar fetas sieru",
           "ru": "Свёкольный салат с сыром фета",
@@ -308,7 +308,7 @@
           "ru": "Творожно-яблочный пирог",
           "de": "Quark- und Apfelkuchen"
         },
-        "price": 4.5
+        "price": 5
       }
     ]
   },
@@ -344,7 +344,7 @@
       },
       {
         "title": {
-          "lt": "Grill vištienos",
+          "lt": "Grill vištiena",
           "en": "Grilled chicken steak",
           "lv": "Grilēta vistas fileja",
           "ru": "Куриный стейк гриль",
@@ -354,7 +354,7 @@
       },
       {
         "title": {
-          "lt": "Grill lašišos kepsnys",
+          "lt": "Grill lašiša",
           "en": "Grilled salmon steak",
           "lv": "Grilēta laša fileja",
           "ru": "Стейк из лосося гриль",
@@ -364,7 +364,7 @@
       },
       {
         "title": {
-          "lt": "Menkės kepsnys su sezamo sėklomis",
+          "lt": "Menkė su sezamo sėklomis",
           "en": "Cod fish steak with sesame seeds",
           "lv": "Menca ar sezama sēklām",
           "ru": "Стейк из трески с кунжутом",
@@ -380,15 +380,22 @@
           "ru": "Гриль-сет на двоих",
           "de": "Grill-Set für zwei"
         },
+        "notes": {
+          "lt": "Grill sprandinė, grill vištiena, grill šonkauliai",
+          "en": "Grilled pork neck, grilled chicken steak, grilled pork ribs",
+          "lv": "Grilēta cūkas kakla gaļa, grilēta vistas fileja, grilēti cūkas ribas",
+          "ru": "Свиная шея гриль, куриный стейк гриль, свиные рёбра гриль",
+          "de": "Gegrillter Schweinenacken, gegrilltes Hähnchensteak, gegrillte Schweinerippchen"
+        },
         "price": 31
       },
       {
         "title": {
-          "lt": "Jautienos žandai mėsos padaže",
-          "en": "Beef cheeks with gravy sauce",
-          "lv": "Liellopa vaigiņi ar mērci",
-          "ru": "Говяжьи щёчки в мясном соусе",
-          "de": "Rinderwangen mit Bratensauce"
+          "lt": "Jautienos žandai su bulviu koše",
+          "en": "Beef cheeks with mashed potatoes",
+          "lv": "Liellopu vaigi ar kartupeļu biezeni",
+          "ru": "Говяжьи щёки с картофельным пюре",
+          "de": "Rinderbäckchen mit Kartoffelpüree",
         },
         "price": 17
       },
@@ -400,7 +407,7 @@
           "ru": "Свиная отбивная / с сыром",
           "de": "Schweinekotelett mit/ohne Käse"
         },
-        "smallPrice": 11.5,
+        "smallPrice": 11,
         "price": 12
       },
       {
@@ -411,12 +418,12 @@
           "ru": "Куриный стейк / с сыром",
           "de": "Hähnchensteak mit/ohne Käse"
         },
-        "smallPrice": 11.5,
+        "smallPrice": 11,
         "price": 12
       },
       {
         "title": {
-          "lt": "Vištiena grietinėlės-sūrio padaže",
+          "lt": "Vištienos juostelės grietinėlės-sūrio padaže",
           "en": "Chicken strips in cream-cheese sauce",
           "lv": "Vistas strēmelītes krējuma-siera mērcē",
           "ru": "Куриные полоски в сливочно-сырном соусе",
@@ -465,7 +472,7 @@
     "items": [
       {
         "title": {
-          "lt": "Karštos bulves su kastiniu",
+          "lt": "Karštos bulves su kąstiniu",
           "en": "Hot potatoes with local curd sauce",
           "lv": "Karsti kartupeļi ar biezpiena mērci",
           "ru": "Горячий картофель с местным творожным соусом",
@@ -537,7 +544,7 @@
   },
   "hotDrinks": {
     "title": {
-      "lt": "Karšti gerimai",
+      "lt": "Karšti gėrimai",
       "en": "Hot drinks",
       "lv": "Karstie dzērieni",
       "ru": "Горячие напитки",
@@ -702,7 +709,7 @@
       },
       {
         "title": {
-          "lt": "Alchoholinis kavos kokteilis",
+          "lt": "Alkoholinis kavos kokteilis",
           "en": "Alcohol coffee cocktail",
           "lv": "Alkoholiskais kafijas kokteilis",
           "ru": "Алкогольный кофейный коктейль",
