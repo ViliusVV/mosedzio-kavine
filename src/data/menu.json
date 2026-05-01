@@ -65,17 +65,17 @@
       {
         "title": {
           "lt": "Žemaitiškas užkandis",
-          "en": "Local cold soup with snacks",
-          "lv": "Žemaišu aukstā zupa",
-          "ru": "Жемайтийская холодная закуска с супом",
-          "de": "Lokale Kaltsuppe mit Snacks"
+          "en": "Samogitian appetizer",
+          "lv": "Žemaišu uzkoda",
+          "ru": "Жемайтийская закуска",
+          "de": "Samogitische Vorspeise"
         },
         "note": {
           "lt": "Cibulynė, silkė, kąstinys, karštos bulvės su spirgine",
-          "en": "Cold onion soup, herring, beaten cream, hot potatoes with Samogitian hemp seed spread",
-          "lv": "Sīpolu zupa, siļķe, putukrējums, karsti kartupeļi ar žemaitišku kaņepju sēklu uzkandīte",
-          "ru": "Луковый суп, сельдь, взбитые сливки, горячий картофель с жемайтийской конопляной пастой",
-          "de": "Zwiebelsuppe, Hering, Schlagsahne, heiße Kartoffeln mit samogitischem Hanfsamen-Aufstrich"
+          "en": "Cold onion soup, herring, Samogitian curd spread, hot potatoes with hemp seed spread",
+          "lv": "Sīpolu zupa, siļķe, žemaišu biezpiena smēriņš, karsti kartupeļi ar kaņepju sēklu smēriņu",
+          "ru": "Луковый суп, сельдь, жемайтийская творожная намазка, горячий картофель с пастой из конопляных семян",
+          "de": "Zwiebelsuppe, Hering, samogitischer Quarkaufstrich, heiße Kartoffeln mit Hanfsamen-Aufstrich"
         },
         "price": 11
       }
@@ -137,9 +137,9 @@
         },
         "note": {
           "lt": "Bulvių grotelės, svogūnų žiedai, vištienos juostelės",
-          "en": "Fried potato grids, onion rings, chicken strips",
+          "en": "Criss-cut fries, onion rings, chicken strips",
           "lv": "Kartupeļu režģi, sīpolu gredzeni, vistas strēmelītes",
-          "ru": "Картофельные грили, луковые кольца, куриные полоски",
+          "ru": "Картофель фри решёткой, луковые кольца, куриные полоски",
           "de": "Kartoffelgitter, Zwiebelringe, Hähnchenstreifen"
         },
         "price": 11
@@ -167,8 +167,8 @@
       {
         "title": {
           "lt": "Karštų sūrio spurgyčių rinkinys",
-          "en": "Fried cheese ball set",
-          "lv": "Ceptas siers",
+          "en": "Fried cheese ball assortment",
+          "lv": "Ceptu siera bumbiņu komplekts",
           "ru": "Жареные шарики из сыра",
           "de": "Gebratene Käsebällchen"
         },
@@ -178,7 +178,7 @@
         "title": {
           "lt": "Saldžiosios bulvės su padažu",
           "en": "Sweet potatoes with sauce",
-          "lv": "Salda kartupeļu ar mērci",
+          "lv": "Saldie kartupeļi ar mērci",
           "ru": "Сладкий картофель с соусом",
           "de": "Süßkartoffeln mit Sauce"
         },
@@ -297,7 +297,7 @@
         "title": {
           "lt": "Firminis pyragas",
           "en": "Signature cake",
-          "lv": "Firminais kūka",
+           "lv": "Firmas kūka",
           "ru": "Фирменный торт",
           "de": "Signaturtorte"
         },
@@ -335,7 +335,7 @@
         "title": {
           "lt": "Grill kiaulienos šonkauliai su BBQ burbono glazūra",
           "en": "Grilled pork ribs with BBQ bourbon glaze",
-          "lv": "Grilēti cūkas ribas ar BBQ bourbon glazūru",
+           "lv": "Grilētas cūkgaļas ribiņas ar BBQ burbona glazūru",
           "ru": "Свиные рёбра гриль с BBQ-глазурью из бурбона",
           "de": "Gegrillte Schweinerippchen mit BBQ-Bourbon-Glasur"
         },
@@ -344,7 +344,7 @@
       },
       {
         "title": {
-          "lt": "Grill vištiena",
+          "lt": "Grill vištienos kepsnys",
           "en": "Grilled chicken steak",
           "lv": "Grilēta vistas fileja",
           "ru": "Куриный стейк гриль",
@@ -403,7 +403,7 @@
         "title": {
           "lt": "Kiaulienos karbonadas / su sūriu",
           "en": "Pork chop with/without cheese topping",
-          "lv": "Cūkas karbonāde ar sieru",
+          "lv": "Cūkgaļas karbonāde ar / bez siera",
           "ru": "Свиная отбивная / с сыром",
           "de": "Schweinekotelett mit/ohne Käse"
         },
@@ -414,7 +414,7 @@
         "title": {
           "lt": "Vištienos kepsnys / su sūriu",
           "en": "Chicken steak with/without cheese topping",
-          "lv": "Vistas fileja ar sieru",
+           "lv": "Vistas steiks ar / bez siera",
           "ru": "Куриный стейк / с сыром",
           "de": "Hähnchensteak mit/ohne Käse"
         },
@@ -473,7 +473,7 @@
       {
         "title": {
           "lt": "Karštos bulvės su kąstiniu",
-          "en": "Hot potatoes with local curd sauce",
+           "en": "Hot potatoes with Samogitian curd spread",
           "lv": "Karsti kartupeļi ar biezpiena mērci",
           "ru": "Горячий картофель с местным творожным соусом",
           "de": "Heiße Kartoffeln mit lokaler Quarksauce"
@@ -710,7 +710,7 @@
       {
         "title": {
           "lt": "Alkoholinis kavos kokteilis",
-          "en": "Alcohol coffee cocktail",
+           "en": "Alcoholic coffee cocktail",
           "lv": "Alkoholiskais kafijas kokteilis",
           "ru": "Алкогольный кофейный коктейль",
           "de": "Alkoholischer Kaffeecocktail"
@@ -722,7 +722,7 @@
   "alcoholCocktails": {
     "title": {
       "lt": "Alkoholiniai kokteiliai",
-      "en": "Alcohol cocktails",
+       "en": "Alcoholic cocktails",
       "lv": "Alkoholiskie kokteiļi",
       "ru": "Алкогольные коктейли",
       "de": "Alkoholische Cocktails"
@@ -732,7 +732,7 @@
         "title": {
           "lt": "Atsuktuvas",
           "en": "Screwdriver",
-          "lv": "Atslēdznieks",
+           "lv": "Screwdriver",
           "ru": "Отвёртка",
           "de": "Screwdriver"
         },
@@ -740,7 +740,7 @@
       },
       {
         "title": {
-          "lt": "Mojito
+          "lt": "Mojito",
           "en": "Mojito",
           "ru": "Мохито",
           "de": "Mojito"
