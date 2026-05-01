@@ -146,7 +146,7 @@
       },
       {
         "title": {
-          "lt": "Krevetės tešlojoe",
+          "lt": "Krevetės tešloje",
           "en": "Batter-Fried shrimps",
           "lv": "Ceptas garneles",
           "ru": "Креветки в кляре",
@@ -276,7 +276,7 @@
         },
         "note": {
           "lt": "Braškinis arba bananinis",
-          "en": "Strawberry or bannana",
+          "en": "Strawberry or banana",
           "lv": "Zemeņu vai banānu",
           "ru": "Клубничный или банановый",
           "de": "Erdbeere oder Banane"
@@ -395,7 +395,7 @@
           "en": "Beef cheeks with mashed potatoes",
           "lv": "Liellopu vaigi ar kartupeļu biezeni",
           "ru": "Говяжьи щёки с картофельным пюре",
-          "de": "Rinderbäckchen mit Kartoffelpüree",
+          "de": "Rinderbäckchen mit Kartoffelpüree"
         },
         "price": 17
       },
@@ -445,7 +445,7 @@
       {
         "title": {
           "lt": "Vištienos mėsainis su fri bulvytėmis",
-          "en": "Chicken burger with french fires",
+          "en": "Chicken burger with french fries",
           "lv": "Vistas burgeris ar frī kartupeļiem",
           "ru": "Куриный бургер с картофелем фри",
           "de": "Hähnchenburger mit Pommes frites"
@@ -472,7 +472,7 @@
     "items": [
       {
         "title": {
-          "lt": "Karštos bulves su kąstiniu",
+          "lt": "Karštos bulvės su kąstiniu",
           "en": "Hot potatoes with local curd sauce",
           "lv": "Karsti kartupeļi ar biezpiena mērci",
           "ru": "Горячий картофель с местным творожным соусом",
@@ -492,7 +492,7 @@
       },
       {
         "title": {
-          "lt": "Gruzdintos bulvytes su pomidorų padažu",
+          "lt": "Gruzdintos bulvytės su pomidorų padažu",
           "en": "French fries with tomato sauce",
           "lv": "Frī kartupeļi ar tomātu mērci",
           "ru": "Картофель фри с томатным соусом",
@@ -502,7 +502,7 @@
       },
       {
         "title": {
-          "lt": "Gruzdintos bulvytes su vištienos \"popsiukais\"",
+          "lt": "Gruzdintos bulvytės su vištienos \"popsiukais\"",
           "en": "French fries with chicken nuggets",
           "lv": "Frī kartupeļi ar vistas \"popsiukiem\"",
           "ru": "Картофель фри с куриными наггетсами",
@@ -740,7 +740,7 @@
       },
       {
         "title": {
-          "lt": "Mochito",
+          "lt": "Mojito
           "en": "Mojito",
           "ru": "Мохито",
           "de": "Mojito"
@@ -973,7 +973,7 @@
       {
         "title": {
           "lt": "Poema kreminis su kava",
-          "en": "\"Poema\" creamy with coffe",
+          "en": "\"Poema\" creamy with coffee",
           "lv": "\"Poema\" krēmveida ar kafiju",
           "ru": "\"Poema\" кремовый с кофе",
           "de": "\"Poema\" Sahne mit Kaffee"
@@ -1094,7 +1094,7 @@
         "price": 7.00
       },
       {
-        "title": { "lt": "Courvoiseier VSOP" },
+        "title": { "lt": "Courvoisier VSOP" },
         "price": 8.00
       }
     ]
