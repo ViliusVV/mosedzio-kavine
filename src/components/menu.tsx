@@ -32,7 +32,7 @@ const menuData: MenuType = data as unknown as MenuType;
 export function MenuFront(props: {lang: Locale}) {
     return <MenuWrapper>
         <div className='flex gap-12 py-2 px-16'>
-            <div className='relative z-10 flex flex-col w-[150mm]'>
+            <div className='relative z-10 flex flex-col w-[135mm]'>
                 <MenuGroup gap={-1} textSize="text-md" lang={props.lang} group={menuData['soups']}/>
                 <MenuGroup gap={-1} textSize="text-md" lang={props.lang} group={menuData['snacks']}/>
                 <MenuGroup gap={-1} textSize="text-md" lang={props.lang} group={menuData['salads']}/>
