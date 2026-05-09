@@ -705,17 +705,7 @@
           "ru": "Холодный кофе с ликёром",
           "de": "Kalter Kaffee mit Likör"
         },
-        "price": 6
-      },
-      {
-        "title": {
-          "lt": "Alkoholinis kavos kokteilis",
-          "en": "Alcoholic coffee drink",
-          "lv": "Alkoholiskais kafijas kokteilis",
-          "ru": "Алкогольный кофейный коктейль",
-          "de": "Alkoholischer Kaffeecocktail"
-        },
-        "price": 6
+        "price": 5
       }
     ]
   },
@@ -782,6 +772,16 @@
           "lv": "Vasara",
           "ru": "Лето",
           "de": "Sommer"
+        },
+        "price": 8
+      },
+      {
+        "title": {
+          "lt": "Alkoholinis kavos kokteilis",
+          "en": "Alcoholic coffee drink",
+          "lv": "Alkoholiskais kafijas kokteilis",
+          "ru": "Алкогольный кофейный коктейль",
+          "de": "Alkoholischer Kaffeecocktail"
         },
         "price": 8
       }
