@@ -41,7 +41,7 @@ export function MenuFront(props: {lang: Locale}) {
 
                 <p className='text-orange-500 italic'>! {T(props.lang, 'alergens.notice')}</p> 
             </div>
-            <div className='relative z-10 flex flex-col w-[130mm]'>
+            <div className='relative z-10 flex flex-col w-[150mm]'>
                 <MenuGroup lang={props.lang} group={menuData['hotDishes']}/>
                 <MenuGroup lang={props.lang} group={menuData['otherDishes']}/>
             </div>
