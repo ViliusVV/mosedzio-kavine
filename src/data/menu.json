@@ -233,7 +233,7 @@
           "ru": "Салат с курицей",
           "de": "Hühnchensalat"
         },
-        "price": 10
+        "price": 11
       }
     ]
   },
@@ -329,7 +329,7 @@
           "ru": "Свиная шея гриль в маринаде из виски",
           "de": "Gegrillter Schweinenacken in Whisky-Marinade"
         },
-        "price": 13
+        "price": 13.5
       },
       {
         "title": {
@@ -339,7 +339,7 @@
           "ru": "Свиные рёбра гриль с BBQ-глазурью из бурбона",
           "de": "Gegrillte Schweinerippchen mit BBQ-Bourbon-Glasur"
         },
-        "price": 19,
+        "price": 20,
         "smallPrice": 14
       },
       {
@@ -350,7 +350,7 @@
           "ru": "Куриный стейк гриль",
           "de": "Gegrilltes Hähnchensteak"
         },
-        "price": 12
+        "price": 13.5
       },
       {
         "title": {
@@ -370,7 +370,7 @@
           "ru": "Стейк из трески с кунжутом",
           "de": "Kabeljaufilet mit Sesamsamen"
         },
-        "price": 11.5
+        "price": 12.5
       },
       {
         "title": {
@@ -387,7 +387,7 @@
           "ru": "Свиная шея гриль, куриный стейк гриль, свиные рёбра гриль",
           "de": "Gegrillter Schweinenacken, gegrilltes Hähnchensteak, gegrillte Schweinerippchen"
         },
-        "price": 31
+        "price": 35
       },
       {
         "title": {
@@ -407,8 +407,8 @@
           "ru": "Свиная отбивная / с сыром",
           "de": "Schweinekotelett mit/ohne Käse"
         },
-        "smallPrice": 11,
-        "price": 12
+        "smallPrice": 12.5,
+        "price": 13
       },
       {
         "title": {
@@ -418,8 +418,8 @@
           "ru": "Куриный стейк / с сыром",
           "de": "Hähnchensteak mit/ohne Käse"
         },
-        "smallPrice": 11,
-        "price": 12
+        "smallPrice": 12.5,
+        "price": 13
       },
       {
         "title": {
@@ -429,7 +429,7 @@
           "ru": "Куриные полоски в сливочно-сырном соусе",
           "de": "Hähnchenstreifen in Sahne-Käse-Sauce"
         },
-        "price": 12
+        "price": 12.5
       }
     ]
   },
@@ -457,7 +457,7 @@
           "ru": "Куриное гриль, бекон, лук, сыр, помидоры, огурцы, салат",
           "de": "Gegrilltes Hähnchen, Speck, Zwiebel, Käse, Tomaten, Gurken, Salat"
         },
-        "price": 11
+        "price": 12
       }
     ]
   },
@@ -478,7 +478,7 @@
           "ru": "Горячий картофель с местным творожным соусом",
           "de": "Heiße Kartoffeln mit lokaler Quarksauce"
         },
-        "price": 6
+        "price": 6.5
       },
       {
         "title": {
@@ -488,7 +488,7 @@
           "ru": "Сельдь с горячим картофелем",
           "de": "Hering mit heißen Kartoffeln"
         },
-        "price": 8
+        "price": 8.5
       },
       {
         "title": {
@@ -498,7 +498,7 @@
           "ru": "Картофель фри с томатным соусом",
           "de": "Pommes frites mit Tomatensauce"
         },
-        "price": 4.5
+        "price": 5
       },
       {
         "title": {
@@ -508,7 +508,7 @@
           "ru": "Картофель фри с куриными наггетсами",
           "de": "Pommes frites mit Hähnchen-Nuggets"
         },
-        "price": 8
+        "price": 8.5
       },
       {
         "title": {
