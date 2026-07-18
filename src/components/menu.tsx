@@ -85,8 +85,8 @@ export function MenuBack(props: {lang: Locale}) {
             </div>
         </div>
 
+        <p className='absolute bottom-4 right-16 z-10 text-orange-500 italic text-sm whitespace-nowrap'>! {T(props.lang, 'bottle.discount')}</p>
 
-           
         <div style={{width: "40%", height: "40%" }} className="absolute bottom-0 left-0 translate-y-[6%]">
             <Image
                 className='object-contain'

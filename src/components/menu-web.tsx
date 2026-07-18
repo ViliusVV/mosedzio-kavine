@@ -77,7 +77,15 @@ export default function MenuWeb(props: { lang: Locale }) {
         <p className="text-sm sm:text-base text-[#efe5d3]/70 mt-2">{T(lang, "tagline.short")}</p>
       </header>
 
-      <MenuTabs tabs={tabs} panels={panels} allergenNotice={T(lang, "alergens.notice")} />
+      <MenuTabs
+        tabs={tabs}
+        panels={panels}
+        allergenNotice={T(lang, "alergens.notice")}
+        tabNotices={{
+          gerimai: T(lang, "bottle.discount"),
+          stiprieji: T(lang, "bottle.discount"),
+        }}
+      />
     </div>
   );
 }

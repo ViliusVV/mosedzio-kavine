@@ -15,6 +15,7 @@ export default function MenuTabs(props: {
   tabs: TabDef[];
   panels: Record<string, React.ReactNode>;
   allergenNotice: string;
+  tabNotices?: Record<string, string>;
 }) {
   const [activeTabId, setActiveTabId] = useState<string>(props.tabs[0]?.id ?? "");
   const [hashApplied, setHashApplied] = useState(false);
@@ -74,6 +75,12 @@ export default function MenuTabs(props: {
       <div className="mt-2 mb-4 px-3 py-2 border-l-2 border-[#d8a657] bg-[#d8a657]/[0.06] text-sm text-[#efe5d3]/85">
         {props.allergenNotice}
       </div>
+
+      {props.tabNotices?.[activeTabId] && (
+        <div className="-mt-2 mb-4 px-3 py-2 border-l-2 border-[#d8a657] bg-[#d8a657]/[0.06] text-sm text-[#efe5d3]/85">
+          {props.tabNotices[activeTabId]}
+        </div>
+      )}
 
       {/* All panels stay in the DOM (for SEO + crawlable content) — only the active tab is visible. */}
       {props.tabs.map((t) => (
