@@ -407,8 +407,8 @@
           "ru": "Свиная отбивная / с сыром",
           "de": "Schweinekotelett mit/ohne Käse"
         },
-        "smallPrice": 12.5,
-        "price": 13
+        "smallPrice": 12,
+        "price": 12.5
       },
       {
         "title": {
@@ -418,8 +418,8 @@
           "ru": "Куриный стейк / с сыром",
           "de": "Hähnchensteak mit/ohne Käse"
         },
-        "smallPrice": 12.5,
-        "price": 13
+        "smallPrice": 12,
+        "price": 12.5
       },
       {
         "title": {
